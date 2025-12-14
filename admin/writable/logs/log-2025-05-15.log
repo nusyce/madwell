@@ -1,0 +1,72 @@
+ERROR - 2025-05-15 02:47:14 -->    Params passed :: {"country_code":"","uid":"lrCMeuiDm2RyYzRtZ5qQYsoquwf1","mobile":"","latitude":"37.785834","longitude":"-122.406417","loginType":"google"} Responce => eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3NDcyNzM2MzQsImlzcyI6ImVkZW1hbmQiLCJleHAiOjE3Nzg4MDk2MzQsInN1YiI6ImVkZW1hbmRfYXV0aGVudGljYXRpb24iLCJ1c2VyX2lkIjoiNyJ9.wMRzsqHOFjRZqstL2dWLn6TOKa-JkWDWYnZjC6fL8hE- at 2025-05-15 02:47:14--> app/Controllers/api/V1.php - manage_user()
+ERROR - 2025-05-15 02:56:15 -->  Params passed: [] Issue => ErrorException: file_get_contents(https://maps.googleapis.com/maps/api/geocode/json?place_id=&amp;key=AIzaSyCwfukVGxK_naIuOCyp5q_pLwbyi4Hbprw): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/c2581019c/public_html/production/app/app/Controllers/api/V1.php:7326
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/c2581019c/public_html/production/app/app/Controllers/api/V1.php(7326): file_get_contents()
+#2 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\api\V1->get_place_details_for_web()
+#3 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#4 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#6 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#7 /home/c2581019c/public_html/production/app/index.php(58): CodeIgniter\Boot::bootWeb()
+#8 {main}- at 2025-05-15 02:56:15--> app/Controllers/api/V1.php - get_places_for_web()
+ERROR - 2025-05-15 03:02:35 --> mysqli_sql_exception: Column 'partner_id' in WHERE is ambiguous in /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(312): mysqli->query()
+#1 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query()
+#4 /home/c2581019c/public_html/production/app/app/Models/Promo_code_model.php(66): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/c2581019c/public_html/production/app/app/Controllers/admin/Partners.php(1824): App\Models\Promo_code_model->list()
+#6 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\admin\Partners->partner_promocode_details_list()
+#7 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#8 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#11 /home/c2581019c/public_html/production/app/index.php(58): CodeIgniter\Boot::bootWeb()
+#12 {main}
+ERROR - 2025-05-15 03:02:35 --> mysqli_sql_exception: Column 'partner_id' in WHERE is ambiguous in /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(312): mysqli->query()
+#1 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query()
+#4 /home/c2581019c/public_html/production/app/app/Models/Promo_code_model.php(66): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/c2581019c/public_html/production/app/app/Controllers/admin/Partners.php(1824): App\Models\Promo_code_model->list()
+#6 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\admin\Partners->partner_promocode_details_list()
+#7 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#8 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#11 /home/c2581019c/public_html/production/app/index.php(58): CodeIgniter\Boot::bootWeb()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Column 'partner_id' in WHERE is ambiguous in /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:317
+Stack trace:
+#0 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+#1 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+#2 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query()
+#3 /home/c2581019c/public_html/production/app/app/Models/Promo_code_model.php(66): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/c2581019c/public_html/production/app/app/Controllers/admin/Partners.php(1824): App\Models\Promo_code_model->list()
+#5 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\admin\Partners->partner_promocode_details_list()
+#6 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#7 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#10 /home/c2581019c/public_html/production/app/index.php(58): CodeIgniter\Boot::bootWeb()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Column 'partner_id' in WHERE is ambiguous in /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Database/BaseConnection.php:688
+Stack trace:
+#0 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query()
+#1 /home/c2581019c/public_html/production/app/app/Models/Promo_code_model.php(66): CodeIgniter\Database\BaseBuilder->get()
+#2 /home/c2581019c/public_html/production/app/app/Controllers/admin/Partners.php(1824): App\Models\Promo_code_model->list()
+#3 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\admin\Partners->partner_promocode_details_list()
+#4 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#5 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#7 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#8 /home/c2581019c/public_html/production/app/index.php(58): CodeIgniter\Boot::bootWeb()
+#9 {main}- at 2025-05-15 03:02:35 --> app/Controllers/admin/Partners.php - partner_promocode_details_list()
+ERROR - 2025-05-15 11:08:36 -->    Params passed :: {"country_code":"+237","uid":"","mobile":"653209802","latitude":"49.260318669852516","longitude":"4.0145493530590715","loginType":"phone","fcm_id":"eITUqnf-rkF7gE2JN8tF43:APA91bGerfetyAEgaD6oc__8NxVnXTQdje8hKAo1ePNacoVs4aCx7HzJ2Zj0DXGSYgAST7xU2GLwC6b6BrNn9dRmRUDXpcNaf7UM9wRXE_dUh1yWWJqT0lo","platform":"ios"} Responce => eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3NDczMDM3MTYsImlzcyI6ImVkZW1hbmQiLCJleHAiOjE3Nzg4Mzk3MTYsInN1YiI6ImVkZW1hbmRfYXV0aGVudGljYXRpb24iLCJ1c2VyX2lkIjoiOCJ9.UdgY6bgtJIJdkZDWDtctY0qC63Rlh2M-qLmzENi2adw- at 2025-05-15 11:08:36--> app/Controllers/api/V1.php - manage_user()

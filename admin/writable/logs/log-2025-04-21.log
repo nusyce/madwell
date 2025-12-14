@@ -1,0 +1,528 @@
+CRITICAL - 2025-04-21 08:24:41 --> ErrorException: Creation of dynamic property IonAuth\Libraries\IonAuth::$session is deprecated
+[Method: GET, Route: /]
+in FCPATH/vendor/benedmunds/codeigniter-ion-auth/Libraries/IonAuth.php on line 65.
+ 1 FCPATH/vendor/benedmunds/codeigniter-ion-auth/Libraries/IonAuth.php(65): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/admin/Admin.php(10): IonAuth\Libraries\IonAuth->__construct()
+ 3 APPPATH/Controllers/admin/Dashboard.php(17): App\Controllers\admin\Admin->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\admin\Dashboard->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(58): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-04-21 08:24:41 --> ErrorException: Uncaught Error: Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$uri in /home/c2581019c/public_html/staging/admin/app/Views/errors/html/error_exception.php:201
+Stack trace:
+#0 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Debug/Exceptions.php(396): include()
+#1 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Debug/Exceptions.php(399): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#2 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Debug/Exceptions.php(194): CodeIgniter\Debug\Exceptions->render()
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#4 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Creation of dynamic property IonAuth\Libraries\IonAuth::$session is deprecated
+#0 /home/c2581019c/public_html/staging/admin/vendor/benedmunds/codeigniter-ion-auth/Libraries/IonAuth.php(65): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/c2581019c/public_html/staging/admin/app/Controllers/admin/Admin.php(10): IonAuth\Libraries\IonAuth->__construct()
+#2 /home/c2581019c/public_html/staging/admin/app/Controllers/admin/Dashboard.php(17): App\Controllers\admin\Admin->__construct()
+#3 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/CodeIgniter.php(903): App\Controllers\admin\Dashboard->__construct()
+#4 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+#5 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#7 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#8 /home/c2581019c/public_html/staging/admin/index.php(58): CodeIgniter\Boot::bootWeb()
+#9 {main}
+[Method: GET, Route: /]
+in APPPATH/Views/errors/html/error_exception.php on line 201.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-04-21 08:24:55 --> ErrorException: Creation of dynamic property IonAuth\Libraries\IonAuth::$session is deprecated
+[Method: GET, Route: /]
+in FCPATH/vendor/benedmunds/codeigniter-ion-auth/Libraries/IonAuth.php on line 65.
+ 1 FCPATH/vendor/benedmunds/codeigniter-ion-auth/Libraries/IonAuth.php(65): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/admin/Admin.php(10): IonAuth\Libraries\IonAuth->__construct()
+ 3 APPPATH/Controllers/admin/Dashboard.php(17): App\Controllers\admin\Admin->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\admin\Dashboard->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(58): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-04-21 08:24:55 --> ErrorException: Uncaught Error: Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$uri in /home/c2581019c/public_html/staging/admin/app/Views/errors/html/error_exception.php:201
+Stack trace:
+#0 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Debug/Exceptions.php(396): include()
+#1 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Debug/Exceptions.php(399): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#2 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Debug/Exceptions.php(194): CodeIgniter\Debug\Exceptions->render()
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#4 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Creation of dynamic property IonAuth\Libraries\IonAuth::$session is deprecated
+#0 /home/c2581019c/public_html/staging/admin/vendor/benedmunds/codeigniter-ion-auth/Libraries/IonAuth.php(65): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/c2581019c/public_html/staging/admin/app/Controllers/admin/Admin.php(10): IonAuth\Libraries\IonAuth->__construct()
+#2 /home/c2581019c/public_html/staging/admin/app/Controllers/admin/Dashboard.php(17): App\Controllers\admin\Admin->__construct()
+#3 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/CodeIgniter.php(903): App\Controllers\admin\Dashboard->__construct()
+#4 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+#5 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#7 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#8 /home/c2581019c/public_html/staging/admin/index.php(58): CodeIgniter\Boot::bootWeb()
+#9 {main}
+[Method: GET, Route: /]
+in APPPATH/Views/errors/html/error_exception.php on line 201.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-04-21 08:25:38 --> ErrorException: Creation of dynamic property IonAuth\Libraries\IonAuth::$session is deprecated
+[Method: GET, Route: /]
+in FCPATH/vendor/benedmunds/codeigniter-ion-auth/Libraries/IonAuth.php on line 65.
+ 1 FCPATH/vendor/benedmunds/codeigniter-ion-auth/Libraries/IonAuth.php(65): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/admin/Admin.php(10): IonAuth\Libraries\IonAuth->__construct()
+ 3 APPPATH/Controllers/admin/Dashboard.php(17): App\Controllers\admin\Admin->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\admin\Dashboard->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(58): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-04-21 08:25:38 --> ErrorException: Uncaught Error: Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$uri in /home/c2581019c/public_html/staging/admin/app/Views/errors/html/error_exception.php:201
+Stack trace:
+#0 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Debug/Exceptions.php(396): include()
+#1 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Debug/Exceptions.php(399): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#2 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Debug/Exceptions.php(194): CodeIgniter\Debug\Exceptions->render()
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#4 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Creation of dynamic property IonAuth\Libraries\IonAuth::$session is deprecated
+#0 /home/c2581019c/public_html/staging/admin/vendor/benedmunds/codeigniter-ion-auth/Libraries/IonAuth.php(65): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/c2581019c/public_html/staging/admin/app/Controllers/admin/Admin.php(10): IonAuth\Libraries\IonAuth->__construct()
+#2 /home/c2581019c/public_html/staging/admin/app/Controllers/admin/Dashboard.php(17): App\Controllers\admin\Admin->__construct()
+#3 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/CodeIgniter.php(903): App\Controllers\admin\Dashboard->__construct()
+#4 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+#5 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#7 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#8 /home/c2581019c/public_html/staging/admin/index.php(58): CodeIgniter\Boot::bootWeb()
+#9 {main}
+[Method: GET, Route: /]
+in APPPATH/Views/errors/html/error_exception.php on line 201.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-04-21 08:26:06 --> ErrorException: Creation of dynamic property IonAuth\Libraries\IonAuth::$session is deprecated
+[Method: GET, Route: /]
+in FCPATH/vendor/benedmunds/codeigniter-ion-auth/Libraries/IonAuth.php on line 65.
+ 1 FCPATH/vendor/benedmunds/codeigniter-ion-auth/Libraries/IonAuth.php(65): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/admin/Admin.php(10): IonAuth\Libraries\IonAuth->__construct()
+ 3 APPPATH/Controllers/admin/Dashboard.php(17): App\Controllers\admin\Admin->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\admin\Dashboard->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(58): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-04-21 08:26:06 --> ErrorException: Uncaught Error: Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$uri in /home/c2581019c/public_html/staging/admin/app/Views/errors/html/error_exception.php:201
+Stack trace:
+#0 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Debug/Exceptions.php(396): include()
+#1 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Debug/Exceptions.php(399): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#2 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Debug/Exceptions.php(194): CodeIgniter\Debug\Exceptions->render()
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#4 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Creation of dynamic property IonAuth\Libraries\IonAuth::$session is deprecated
+#0 /home/c2581019c/public_html/staging/admin/vendor/benedmunds/codeigniter-ion-auth/Libraries/IonAuth.php(65): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/c2581019c/public_html/staging/admin/app/Controllers/admin/Admin.php(10): IonAuth\Libraries\IonAuth->__construct()
+#2 /home/c2581019c/public_html/staging/admin/app/Controllers/admin/Dashboard.php(17): App\Controllers\admin\Admin->__construct()
+#3 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/CodeIgniter.php(903): App\Controllers\admin\Dashboard->__construct()
+#4 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+#5 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#7 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#8 /home/c2581019c/public_html/staging/admin/index.php(58): CodeIgniter\Boot::bootWeb()
+#9 {main}
+[Method: GET, Route: /]
+in APPPATH/Views/errors/html/error_exception.php on line 201.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-04-21 08:26:09 --> ErrorException: Creation of dynamic property IonAuth\Libraries\IonAuth::$session is deprecated
+[Method: GET, Route: /]
+in FCPATH/vendor/benedmunds/codeigniter-ion-auth/Libraries/IonAuth.php on line 65.
+ 1 FCPATH/vendor/benedmunds/codeigniter-ion-auth/Libraries/IonAuth.php(65): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/admin/Admin.php(10): IonAuth\Libraries\IonAuth->__construct()
+ 3 APPPATH/Controllers/admin/Dashboard.php(17): App\Controllers\admin\Admin->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\admin\Dashboard->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(58): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-04-21 08:26:09 --> ErrorException: Uncaught Error: Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$uri in /home/c2581019c/public_html/staging/admin/app/Views/errors/html/error_exception.php:201
+Stack trace:
+#0 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Debug/Exceptions.php(396): include()
+#1 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Debug/Exceptions.php(399): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#2 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Debug/Exceptions.php(194): CodeIgniter\Debug\Exceptions->render()
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#4 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Creation of dynamic property IonAuth\Libraries\IonAuth::$session is deprecated
+#0 /home/c2581019c/public_html/staging/admin/vendor/benedmunds/codeigniter-ion-auth/Libraries/IonAuth.php(65): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/c2581019c/public_html/staging/admin/app/Controllers/admin/Admin.php(10): IonAuth\Libraries\IonAuth->__construct()
+#2 /home/c2581019c/public_html/staging/admin/app/Controllers/admin/Dashboard.php(17): App\Controllers\admin\Admin->__construct()
+#3 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/CodeIgniter.php(903): App\Controllers\admin\Dashboard->__construct()
+#4 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+#5 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#7 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#8 /home/c2581019c/public_html/staging/admin/index.php(58): CodeIgniter\Boot::bootWeb()
+#9 {main}
+[Method: GET, Route: /]
+in APPPATH/Views/errors/html/error_exception.php on line 201.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-04-21 08:26:38 --> ErrorException: Creation of dynamic property IonAuth\Libraries\IonAuth::$session is deprecated
+[Method: GET, Route: /]
+in FCPATH/vendor/benedmunds/codeigniter-ion-auth/Libraries/IonAuth.php on line 65.
+ 1 FCPATH/vendor/benedmunds/codeigniter-ion-auth/Libraries/IonAuth.php(65): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/admin/Admin.php(10): IonAuth\Libraries\IonAuth->__construct()
+ 3 APPPATH/Controllers/admin/Dashboard.php(17): App\Controllers\admin\Admin->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\admin\Dashboard->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(58): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-04-21 08:30:16 --> ErrorException: Creation of dynamic property IonAuth\Libraries\IonAuth::$session is deprecated
+[Method: GET, Route: /]
+in FCPATH/vendor/benedmunds/codeigniter-ion-auth/Libraries/IonAuth.php on line 65.
+ 1 FCPATH/vendor/benedmunds/codeigniter-ion-auth/Libraries/IonAuth.php(65): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/admin/Admin.php(10): IonAuth\Libraries\IonAuth->__construct()
+ 3 APPPATH/Controllers/admin/Dashboard.php(17): App\Controllers\admin\Admin->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\admin\Dashboard->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(58): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-04-21 08:30:16 --> ErrorException: Creation of dynamic property IonAuth\Libraries\IonAuth::$session is deprecated
+[Method: GET, Route: /]
+in FCPATH/vendor/benedmunds/codeigniter-ion-auth/Libraries/IonAuth.php on line 65.
+ 1 FCPATH/vendor/benedmunds/codeigniter-ion-auth/Libraries/IonAuth.php(65): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/admin/Admin.php(10): IonAuth\Libraries\IonAuth->__construct()
+ 3 APPPATH/Controllers/admin/Dashboard.php(17): App\Controllers\admin\Admin->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\admin\Dashboard->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(58): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-04-21 08:30:16 --> ErrorException: Creation of dynamic property IonAuth\Libraries\IonAuth::$session is deprecated
+[Method: GET, Route: /]
+in FCPATH/vendor/benedmunds/codeigniter-ion-auth/Libraries/IonAuth.php on line 65.
+ 1 FCPATH/vendor/benedmunds/codeigniter-ion-auth/Libraries/IonAuth.php(65): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/admin/Admin.php(10): IonAuth\Libraries\IonAuth->__construct()
+ 3 APPPATH/Controllers/admin/Dashboard.php(17): App\Controllers\admin\Admin->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\admin\Dashboard->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(58): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-04-21 08:30:38 --> ErrorException: Creation of dynamic property IonAuth\Libraries\IonAuth::$session is deprecated
+[Method: GET, Route: /]
+in FCPATH/vendor/benedmunds/codeigniter-ion-auth/Libraries/IonAuth.php on line 65.
+ 1 FCPATH/vendor/benedmunds/codeigniter-ion-auth/Libraries/IonAuth.php(65): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/admin/Admin.php(10): IonAuth\Libraries\IonAuth->__construct()
+ 3 APPPATH/Controllers/admin/Dashboard.php(17): App\Controllers\admin\Admin->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\admin\Dashboard->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(58): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-04-21 08:30:38 --> ErrorException: Uncaught Error: Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$uri in /home/c2581019c/public_html/staging/admin/app/Views/errors/html/error_exception.php:201
+Stack trace:
+#0 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Debug/Exceptions.php(396): include()
+#1 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Debug/Exceptions.php(399): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#2 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Debug/Exceptions.php(194): CodeIgniter\Debug\Exceptions->render()
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#4 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Creation of dynamic property IonAuth\Libraries\IonAuth::$session is deprecated
+#0 /home/c2581019c/public_html/staging/admin/vendor/benedmunds/codeigniter-ion-auth/Libraries/IonAuth.php(65): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/c2581019c/public_html/staging/admin/app/Controllers/admin/Admin.php(10): IonAuth\Libraries\IonAuth->__construct()
+#2 /home/c2581019c/public_html/staging/admin/app/Controllers/admin/Dashboard.php(17): App\Controllers\admin\Admin->__construct()
+#3 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/CodeIgniter.php(903): App\Controllers\admin\Dashboard->__construct()
+#4 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+#5 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#7 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#8 /home/c2581019c/public_html/staging/admin/index.php(58): CodeIgniter\Boot::bootWeb()
+#9 {main}
+[Method: GET, Route: /]
+in APPPATH/Views/errors/html/error_exception.php on line 201.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-04-21 08:31:04 --> ErrorException: Creation of dynamic property IonAuth\Libraries\IonAuth::$session is deprecated
+[Method: GET, Route: /]
+in FCPATH/vendor/benedmunds/codeigniter-ion-auth/Libraries/IonAuth.php on line 65.
+ 1 FCPATH/vendor/benedmunds/codeigniter-ion-auth/Libraries/IonAuth.php(65): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/admin/Admin.php(10): IonAuth\Libraries\IonAuth->__construct()
+ 3 APPPATH/Controllers/admin/Dashboard.php(17): App\Controllers\admin\Admin->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\admin\Dashboard->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(58): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-04-21 08:31:05 --> ErrorException: Creation of dynamic property IonAuth\Libraries\IonAuth::$session is deprecated
+[Method: GET, Route: /]
+in FCPATH/vendor/benedmunds/codeigniter-ion-auth/Libraries/IonAuth.php on line 65.
+ 1 FCPATH/vendor/benedmunds/codeigniter-ion-auth/Libraries/IonAuth.php(65): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/admin/Admin.php(10): IonAuth\Libraries\IonAuth->__construct()
+ 3 APPPATH/Controllers/admin/Dashboard.php(17): App\Controllers\admin\Admin->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\admin\Dashboard->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(58): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-04-21 08:31:07 --> ErrorException: Creation of dynamic property IonAuth\Libraries\IonAuth::$session is deprecated
+[Method: GET, Route: /]
+in FCPATH/vendor/benedmunds/codeigniter-ion-auth/Libraries/IonAuth.php on line 65.
+ 1 FCPATH/vendor/benedmunds/codeigniter-ion-auth/Libraries/IonAuth.php(65): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/admin/Admin.php(10): IonAuth\Libraries\IonAuth->__construct()
+ 3 APPPATH/Controllers/admin/Dashboard.php(17): App\Controllers\admin\Admin->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\admin\Dashboard->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(58): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-04-21 08:31:08 --> ErrorException: Creation of dynamic property IonAuth\Libraries\IonAuth::$session is deprecated
+[Method: GET, Route: /]
+in FCPATH/vendor/benedmunds/codeigniter-ion-auth/Libraries/IonAuth.php on line 65.
+ 1 FCPATH/vendor/benedmunds/codeigniter-ion-auth/Libraries/IonAuth.php(65): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/admin/Admin.php(10): IonAuth\Libraries\IonAuth->__construct()
+ 3 APPPATH/Controllers/admin/Dashboard.php(17): App\Controllers\admin\Admin->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\admin\Dashboard->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(58): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-04-21 08:39:53 --> ErrorException: Creation of dynamic property IonAuth\Libraries\IonAuth::$session is deprecated
+[Method: GET, Route: /]
+in FCPATH/vendor/benedmunds/codeigniter-ion-auth/Libraries/IonAuth.php on line 65.
+ 1 FCPATH/vendor/benedmunds/codeigniter-ion-auth/Libraries/IonAuth.php(65): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/admin/Admin.php(10): IonAuth\Libraries\IonAuth->__construct()
+ 3 APPPATH/Controllers/admin/Dashboard.php(17): App\Controllers\admin\Admin->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\admin\Dashboard->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(58): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-04-21 08:39:53 --> ErrorException: Uncaught Error: Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$uri in /home/c2581019c/public_html/staging/admin/app/Views/errors/html/error_exception.php:201
+Stack trace:
+#0 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Debug/Exceptions.php(396): include()
+#1 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Debug/Exceptions.php(399): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#2 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Debug/Exceptions.php(194): CodeIgniter\Debug\Exceptions->render()
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#4 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Creation of dynamic property IonAuth\Libraries\IonAuth::$session is deprecated
+#0 /home/c2581019c/public_html/staging/admin/vendor/benedmunds/codeigniter-ion-auth/Libraries/IonAuth.php(65): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/c2581019c/public_html/staging/admin/app/Controllers/admin/Admin.php(10): IonAuth\Libraries\IonAuth->__construct()
+#2 /home/c2581019c/public_html/staging/admin/app/Controllers/admin/Dashboard.php(17): App\Controllers\admin\Admin->__construct()
+#3 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/CodeIgniter.php(903): App\Controllers\admin\Dashboard->__construct()
+#4 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+#5 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#7 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#8 /home/c2581019c/public_html/staging/admin/index.php(58): CodeIgniter\Boot::bootWeb()
+#9 {main}
+[Method: GET, Route: /]
+in APPPATH/Views/errors/html/error_exception.php on line 201.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-04-21 08:40:43 --> ErrorException: Creation of dynamic property IonAuth\Libraries\IonAuth::$session is deprecated
+[Method: GET, Route: /]
+in FCPATH/vendor/benedmunds/codeigniter-ion-auth/Libraries/IonAuth.php on line 65.
+ 1 FCPATH/vendor/benedmunds/codeigniter-ion-auth/Libraries/IonAuth.php(65): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/admin/Admin.php(10): IonAuth\Libraries\IonAuth->__construct()
+ 3 APPPATH/Controllers/admin/Dashboard.php(17): App\Controllers\admin\Admin->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\admin\Dashboard->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(58): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-04-21 08:40:43 --> ErrorException: Uncaught Error: Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$uri in /home/c2581019c/public_html/staging/admin/app/Views/errors/html/error_exception.php:201
+Stack trace:
+#0 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Debug/Exceptions.php(396): include()
+#1 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Debug/Exceptions.php(399): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#2 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Debug/Exceptions.php(194): CodeIgniter\Debug\Exceptions->render()
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#4 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Creation of dynamic property IonAuth\Libraries\IonAuth::$session is deprecated
+#0 /home/c2581019c/public_html/staging/admin/vendor/benedmunds/codeigniter-ion-auth/Libraries/IonAuth.php(65): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/c2581019c/public_html/staging/admin/app/Controllers/admin/Admin.php(10): IonAuth\Libraries\IonAuth->__construct()
+#2 /home/c2581019c/public_html/staging/admin/app/Controllers/admin/Dashboard.php(17): App\Controllers\admin\Admin->__construct()
+#3 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/CodeIgniter.php(903): App\Controllers\admin\Dashboard->__construct()
+#4 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+#5 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#7 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#8 /home/c2581019c/public_html/staging/admin/index.php(58): CodeIgniter\Boot::bootWeb()
+#9 {main}
+[Method: GET, Route: /]
+in APPPATH/Views/errors/html/error_exception.php on line 201.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-04-21 08:43:19 --> ErrorException: Creation of dynamic property IonAuth\Libraries\IonAuth::$session is deprecated
+[Method: GET, Route: /]
+in FCPATH/vendor/benedmunds/codeigniter-ion-auth/Libraries/IonAuth.php on line 65.
+ 1 FCPATH/vendor/benedmunds/codeigniter-ion-auth/Libraries/IonAuth.php(65): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/admin/Admin.php(10): IonAuth\Libraries\IonAuth->__construct()
+ 3 APPPATH/Controllers/admin/Dashboard.php(17): App\Controllers\admin\Admin->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\admin\Dashboard->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(58): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-04-21 08:43:19 --> ErrorException: Uncaught Error: Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$uri in /home/c2581019c/public_html/staging/admin/app/Views/errors/html/error_exception.php:201
+Stack trace:
+#0 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Debug/Exceptions.php(396): include()
+#1 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Debug/Exceptions.php(399): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#2 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Debug/Exceptions.php(194): CodeIgniter\Debug\Exceptions->render()
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#4 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Creation of dynamic property IonAuth\Libraries\IonAuth::$session is deprecated
+#0 /home/c2581019c/public_html/staging/admin/vendor/benedmunds/codeigniter-ion-auth/Libraries/IonAuth.php(65): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/c2581019c/public_html/staging/admin/app/Controllers/admin/Admin.php(10): IonAuth\Libraries\IonAuth->__construct()
+#2 /home/c2581019c/public_html/staging/admin/app/Controllers/admin/Dashboard.php(17): App\Controllers\admin\Admin->__construct()
+#3 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/CodeIgniter.php(903): App\Controllers\admin\Dashboard->__construct()
+#4 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+#5 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#7 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#8 /home/c2581019c/public_html/staging/admin/index.php(58): CodeIgniter\Boot::bootWeb()
+#9 {main}
+[Method: GET, Route: /]
+in APPPATH/Views/errors/html/error_exception.php on line 201.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-04-21 08:43:23 --> ErrorException: Creation of dynamic property IonAuth\Libraries\IonAuth::$session is deprecated
+[Method: GET, Route: /]
+in FCPATH/vendor/benedmunds/codeigniter-ion-auth/Libraries/IonAuth.php on line 65.
+ 1 FCPATH/vendor/benedmunds/codeigniter-ion-auth/Libraries/IonAuth.php(65): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/admin/Admin.php(10): IonAuth\Libraries\IonAuth->__construct()
+ 3 APPPATH/Controllers/admin/Dashboard.php(17): App\Controllers\admin\Admin->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\admin\Dashboard->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(58): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-04-21 08:43:23 --> ErrorException: Uncaught Error: Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$uri in /home/c2581019c/public_html/staging/admin/app/Views/errors/html/error_exception.php:201
+Stack trace:
+#0 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Debug/Exceptions.php(396): include()
+#1 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Debug/Exceptions.php(399): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#2 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Debug/Exceptions.php(194): CodeIgniter\Debug\Exceptions->render()
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#4 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Creation of dynamic property IonAuth\Libraries\IonAuth::$session is deprecated
+#0 /home/c2581019c/public_html/staging/admin/vendor/benedmunds/codeigniter-ion-auth/Libraries/IonAuth.php(65): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/c2581019c/public_html/staging/admin/app/Controllers/admin/Admin.php(10): IonAuth\Libraries\IonAuth->__construct()
+#2 /home/c2581019c/public_html/staging/admin/app/Controllers/admin/Dashboard.php(17): App\Controllers\admin\Admin->__construct()
+#3 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/CodeIgniter.php(903): App\Controllers\admin\Dashboard->__construct()
+#4 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+#5 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#7 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#8 /home/c2581019c/public_html/staging/admin/index.php(58): CodeIgniter\Boot::bootWeb()
+#9 {main}
+[Method: GET, Route: /]
+in APPPATH/Views/errors/html/error_exception.php on line 201.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-04-21 08:43:25 --> ErrorException: Creation of dynamic property IonAuth\Libraries\IonAuth::$session is deprecated
+[Method: GET, Route: /]
+in FCPATH/vendor/benedmunds/codeigniter-ion-auth/Libraries/IonAuth.php on line 65.
+ 1 FCPATH/vendor/benedmunds/codeigniter-ion-auth/Libraries/IonAuth.php(65): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/admin/Admin.php(10): IonAuth\Libraries\IonAuth->__construct()
+ 3 APPPATH/Controllers/admin/Dashboard.php(17): App\Controllers\admin\Admin->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\admin\Dashboard->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(58): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-04-21 08:43:25 --> ErrorException: Uncaught Error: Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$uri in /home/c2581019c/public_html/staging/admin/app/Views/errors/html/error_exception.php:201
+Stack trace:
+#0 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Debug/Exceptions.php(396): include()
+#1 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Debug/Exceptions.php(399): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#2 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Debug/Exceptions.php(194): CodeIgniter\Debug\Exceptions->render()
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#4 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Creation of dynamic property IonAuth\Libraries\IonAuth::$session is deprecated
+#0 /home/c2581019c/public_html/staging/admin/vendor/benedmunds/codeigniter-ion-auth/Libraries/IonAuth.php(65): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/c2581019c/public_html/staging/admin/app/Controllers/admin/Admin.php(10): IonAuth\Libraries\IonAuth->__construct()
+#2 /home/c2581019c/public_html/staging/admin/app/Controllers/admin/Dashboard.php(17): App\Controllers\admin\Admin->__construct()
+#3 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/CodeIgniter.php(903): App\Controllers\admin\Dashboard->__construct()
+#4 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+#5 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#7 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#8 /home/c2581019c/public_html/staging/admin/index.php(58): CodeIgniter\Boot::bootWeb()
+#9 {main}
+[Method: GET, Route: /]
+in APPPATH/Views/errors/html/error_exception.php on line 201.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-04-21 08:44:08 --> ErrorException: Creation of dynamic property IonAuth\Libraries\IonAuth::$session is deprecated
+[Method: GET, Route: /]
+in FCPATH/vendor/benedmunds/codeigniter-ion-auth/Libraries/IonAuth.php on line 65.
+ 1 FCPATH/vendor/benedmunds/codeigniter-ion-auth/Libraries/IonAuth.php(65): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/admin/Admin.php(10): IonAuth\Libraries\IonAuth->__construct()
+ 3 APPPATH/Controllers/admin/Dashboard.php(17): App\Controllers\admin\Admin->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\admin\Dashboard->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(58): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-04-21 08:44:08 --> ErrorException: Uncaught Error: Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$uri in /home/c2581019c/public_html/staging/admin/app/Views/errors/html/error_exception.php:201
+Stack trace:
+#0 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Debug/Exceptions.php(396): include()
+#1 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Debug/Exceptions.php(399): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#2 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Debug/Exceptions.php(194): CodeIgniter\Debug\Exceptions->render()
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#4 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Creation of dynamic property IonAuth\Libraries\IonAuth::$session is deprecated
+#0 /home/c2581019c/public_html/staging/admin/vendor/benedmunds/codeigniter-ion-auth/Libraries/IonAuth.php(65): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/c2581019c/public_html/staging/admin/app/Controllers/admin/Admin.php(10): IonAuth\Libraries\IonAuth->__construct()
+#2 /home/c2581019c/public_html/staging/admin/app/Controllers/admin/Dashboard.php(17): App\Controllers\admin\Admin->__construct()
+#3 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/CodeIgniter.php(903): App\Controllers\admin\Dashboard->__construct()
+#4 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+#5 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#7 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#8 /home/c2581019c/public_html/staging/admin/index.php(58): CodeIgniter\Boot::bootWeb()
+#9 {main}
+[Method: GET, Route: /]
+in APPPATH/Views/errors/html/error_exception.php on line 201.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

@@ -1,0 +1,25 @@
+ERROR - 2025-05-13 07:53:41 --> "{\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Invalid JSON payload received. Unknown name \\\"\\\": Root element must be a message.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com\/google.rpc.BadRequest\",\n        \"fieldViolations\": [\n          {\n            \"description\": \"Invalid JSON payload received. Unknown name \\\"\\\": Root element must be a message.\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+ERROR - 2025-05-13 22:18:17 -->  Params passed: [] Issue => ErrorException: file_get_contents(https://maps.googleapis.com/maps/api/geocode/json?place_id=&amp;key=AIzaSyCwfukVGxK_naIuOCyp5q_pLwbyi4Hbprw): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/c2581019c/public_html/production/app/app/Controllers/api/V1.php:7326
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/c2581019c/public_html/production/app/app/Controllers/api/V1.php(7326): file_get_contents()
+#2 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\api\V1->get_place_details_for_web()
+#3 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#4 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#6 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#7 /home/c2581019c/public_html/production/app/index.php(58): CodeIgniter\Boot::bootWeb()
+#8 {main}- at 2025-05-13 22:18:17--> app/Controllers/api/V1.php - get_places_for_web()
+ERROR - 2025-05-13 22:18:17 -->  Params passed: [] Issue => ErrorException: file_get_contents(https://maps.googleapis.com/maps/api/geocode/json?place_id=&amp;key=AIzaSyCwfukVGxK_naIuOCyp5q_pLwbyi4Hbprw): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/c2581019c/public_html/production/app/app/Controllers/api/V1.php:7326
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/c2581019c/public_html/production/app/app/Controllers/api/V1.php(7326): file_get_contents()
+#2 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\api\V1->get_place_details_for_web()
+#3 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#4 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#6 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#7 /home/c2581019c/public_html/production/app/index.php(58): CodeIgniter\Boot::bootWeb()
+#8 {main}- at 2025-05-13 22:18:17--> app/Controllers/api/V1.php - get_places_for_web()

@@ -1,0 +1,904 @@
+CRITICAL - 2025-12-11 01:55:58 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: admin/upload_update_file]
+in APPPATH/Controllers/admin/Updater.php on line 50.
+ 1 APPPATH/Controllers/admin/Updater.php(50): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\admin\Updater->upload_update_file()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(58): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-12-11 02:01:42 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: admin/upload_update_file]
+in APPPATH/Controllers/admin/Updater.php on line 50.
+ 1 APPPATH/Controllers/admin/Updater.php(50): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\admin\Updater->upload_update_file()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(58): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-12-11 02:07:15 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: admin/upload_update_file]
+in APPPATH/Controllers/admin/Updater.php on line 50.
+ 1 APPPATH/Controllers/admin/Updater.php(50): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\admin\Updater->upload_update_file()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(58): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-12-11 02:15:30 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: admin/upload_update_file]
+in APPPATH/Controllers/admin/Updater.php on line 50.
+ 1 APPPATH/Controllers/admin/Updater.php(50): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\admin\Updater->upload_update_file()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(58): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-12-11 02:19:15 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: admin/upload_update_file]
+in APPPATH/Controllers/admin/Updater.php on line 51.
+ 1 APPPATH/Controllers/admin/Updater.php(51): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\admin\Updater->upload_update_file()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(58): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-12-11 02:21:31 --> ErrorException: Undefined variable $response
+[Method: POST, Route: admin/upload_update_file]
+in APPPATH/Controllers/admin/Updater.php on line 27.
+ 1 APPPATH/Controllers/admin/Updater.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\admin\Updater->upload_update_file()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(58): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-12-11 02:27:06 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: admin/upload_update_file]
+in APPPATH/Controllers/admin/Updater.php on line 53.
+ 1 APPPATH/Controllers/admin/Updater.php(53): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\admin\Updater->upload_update_file()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(58): CodeIgniter\Boot::bootWeb()
+ERROR - 2025-12-11 02:32:22 --> mysqli_sql_exception: Duplicate column name 'priority' in /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(312): mysqli->query()
+#1 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Database/Forge.php(772): CodeIgniter\Database\BaseConnection->query()
+#4 /home/c2581019c/public_html/production/app/app/Database/Migrations/2023-11-05-064053_AddPriorityField.php(36): CodeIgniter\Database\Forge->addColumn()
+#5 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(866): CodeIgniter\Queue\Database\Migrations\AddPriorityField->up()
+#6 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate()
+#7 /home/c2581019c/public_html/production/app/app/Controllers/admin/Updater.php(262): CodeIgniter\Database\MigrationRunner->latest()
+#8 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\admin\Updater->upload_update_file()
+#9 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#10 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#13 /home/c2581019c/public_html/production/app/index.php(58): CodeIgniter\Boot::bootWeb()
+#14 {main}
+ERROR - 2025-12-11 02:51:13 --> mysqli_sql_exception: Query was empty in /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(312): mysqli->query()
+#1 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/c2581019c/public_html/production/app/app/Controllers/admin/Updater.php(255): CodeIgniter\Database\BaseConnection->query()
+#4 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\admin\Updater->upload_update_file()
+#5 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#6 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#9 /home/c2581019c/public_html/production/app/index.php(58): CodeIgniter\Boot::bootWeb()
+#10 {main}
+CRITICAL - 2025-12-11 02:51:23 --> ErrorException: Undefined array key "blog"
+[Method: GET, Route: admin/settings/updater]
+in APPPATH/Views/backend/admin/top_and_sidebar.php on line 361.
+ 1 APPPATH/Views/backend/admin/top_and_sidebar.php(361): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/c2581019c/public_html/production/app/app/Views/backend/admin/top_and_sidebar.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/backend/admin/template.php(54): view()
+ 6 SYSTEMPATH/View/View.php(234): include('/home/c2581019c/public_html/production/app/app/Views/backend/admin/template.php')
+ 7 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/admin/Updater.php(14): view()
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\admin\Updater->index()
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+13 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+15 FCPATH/index.php(58): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-12-11 02:51:23 --> ErrorException: Uncaught Error: Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$uri in /home/c2581019c/public_html/production/app/app/Views/errors/html/error_exception.php:201
+Stack trace:
+#0 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(330): include()
+#1 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(333): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#2 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(194): CodeIgniter\Debug\Exceptions->render()
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#4 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined array key "blog"
+#0 /home/c2581019c/public_html/production/app/app/Views/backend/admin/top_and_sidebar.php(361): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/View/View.php(234): include('/home/c2581019c...')
+#2 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Common.php(1171): CodeIgniter\View\View->render()
+#4 /home/c2581019c/public_html/production/app/app/Views/backend/admin/template.php(54): view()
+#5 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/View/View.php(234): include('/home/c2581019c...')
+#6 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Common.php(1171): CodeIgniter\View\View->render()
+#8 /home/c2581019c/public_html/production/app/app/Controllers/admin/Updater.php(14): view()
+#9 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\admin\Updater->index()
+#10 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#11 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#13 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#14 /home/c2581019c/public_html/production/app/index.php(58): CodeIgniter\Boot::bootWeb()
+#15 {main}
+[Method: GET, Route: admin/settings/updater]
+in APPPATH/Views/errors/html/error_exception.php on line 201.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-12-11 02:51:25 --> ErrorException: Undefined array key "blog"
+[Method: GET, Route: admin/settings/updater]
+in APPPATH/Views/backend/admin/top_and_sidebar.php on line 361.
+ 1 APPPATH/Views/backend/admin/top_and_sidebar.php(361): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/c2581019c/public_html/production/app/app/Views/backend/admin/top_and_sidebar.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/backend/admin/template.php(54): view()
+ 6 SYSTEMPATH/View/View.php(234): include('/home/c2581019c/public_html/production/app/app/Views/backend/admin/template.php')
+ 7 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/admin/Updater.php(14): view()
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\admin\Updater->index()
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+13 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+15 FCPATH/index.php(58): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-12-11 02:51:25 --> ErrorException: Uncaught Error: Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$uri in /home/c2581019c/public_html/production/app/app/Views/errors/html/error_exception.php:201
+Stack trace:
+#0 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(330): include()
+#1 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(333): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#2 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(194): CodeIgniter\Debug\Exceptions->render()
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#4 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined array key "blog"
+#0 /home/c2581019c/public_html/production/app/app/Views/backend/admin/top_and_sidebar.php(361): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/View/View.php(234): include('/home/c2581019c...')
+#2 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Common.php(1171): CodeIgniter\View\View->render()
+#4 /home/c2581019c/public_html/production/app/app/Views/backend/admin/template.php(54): view()
+#5 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/View/View.php(234): include('/home/c2581019c...')
+#6 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Common.php(1171): CodeIgniter\View\View->render()
+#8 /home/c2581019c/public_html/production/app/app/Controllers/admin/Updater.php(14): view()
+#9 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\admin\Updater->index()
+#10 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#11 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#13 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#14 /home/c2581019c/public_html/production/app/index.php(58): CodeIgniter\Boot::bootWeb()
+#15 {main}
+[Method: GET, Route: admin/settings/updater]
+in APPPATH/Views/errors/html/error_exception.php on line 201.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2025-12-11 02:51:39 --> app/Controllers/admin/Dashboard.php - index()
+At Line : 361
+User Token : Not provided
+Base url : https://app.madwell.pro/
+Method : GET
+Params : []
+ERROR - 2025-12-11 02:51:49 --> app/Controllers/admin/Dashboard.php - index()
+At Line : 361
+User Token : Not provided
+Base url : https://app.madwell.pro/admin/dashboard
+Method : GET
+Params : []
+ERROR - 2025-12-11 02:52:01 --> app/Controllers/admin/Dashboard.php - index()
+At Line : 361
+User Token : Not provided
+Base url : https://app.madwell.pro/
+Method : GET
+Params : []
+ERROR - 2025-12-11 02:54:20 --> mysqli_sql_exception: Duplicate column name 'priority' in /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(312): mysqli->query()
+#1 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Database/Forge.php(772): CodeIgniter\Database\BaseConnection->query()
+#4 /home/c2581019c/public_html/production/app/app/Database/Migrations/2023-11-05-064053_AddPriorityField.php(36): CodeIgniter\Database\Forge->addColumn()
+#5 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(866): CodeIgniter\Queue\Database\Migrations\AddPriorityField->up()
+#6 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate()
+#7 /home/c2581019c/public_html/production/app/app/Controllers/admin/Updater.php(259): CodeIgniter\Database\MigrationRunner->latest()
+#8 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\admin\Updater->upload_update_file()
+#9 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#10 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#13 /home/c2581019c/public_html/production/app/index.php(58): CodeIgniter\Boot::bootWeb()
+#14 {main}
+CRITICAL - 2025-12-11 02:54:24 --> Error: Call to undefined function get_company_title_with_fallback()
+[Method: GET, Route: admin/settings/updater]
+in APPPATH/Views/backend/admin/template.php on line 5.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/admin/Updater.php(14): view()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\admin\Updater->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(58): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-12-11 02:54:24 --> ErrorException: Uncaught Error: Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$uri in /home/c2581019c/public_html/production/app/app/Views/errors/html/error_exception.php:201
+Stack trace:
+#0 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(330): include()
+#1 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(333): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#2 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(194): CodeIgniter\Debug\Exceptions->render()
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#4 {main}
+  thrown
+【Previous Exception】
+Error
+Call to undefined function get_company_title_with_fallback()
+#0 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/View/View.php(234): include()
+#1 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Common.php(1171): CodeIgniter\View\View->render()
+#3 /home/c2581019c/public_html/production/app/app/Controllers/admin/Updater.php(14): view()
+#4 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\admin\Updater->index()
+#5 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#6 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#9 /home/c2581019c/public_html/production/app/index.php(58): CodeIgniter\Boot::bootWeb()
+#10 {main}
+[Method: GET, Route: admin/settings/updater]
+in APPPATH/Views/errors/html/error_exception.php on line 201.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-12-11 02:54:26 --> Error: Call to undefined function get_company_title_with_fallback()
+[Method: GET, Route: admin/settings/updater]
+in APPPATH/Views/backend/admin/template.php on line 5.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/admin/Updater.php(14): view()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\admin\Updater->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(58): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-12-11 02:54:26 --> ErrorException: Uncaught Error: Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$uri in /home/c2581019c/public_html/production/app/app/Views/errors/html/error_exception.php:201
+Stack trace:
+#0 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(330): include()
+#1 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(333): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#2 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(194): CodeIgniter\Debug\Exceptions->render()
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#4 {main}
+  thrown
+【Previous Exception】
+Error
+Call to undefined function get_company_title_with_fallback()
+#0 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/View/View.php(234): include()
+#1 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Common.php(1171): CodeIgniter\View\View->render()
+#3 /home/c2581019c/public_html/production/app/app/Controllers/admin/Updater.php(14): view()
+#4 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\admin\Updater->index()
+#5 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#6 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#9 /home/c2581019c/public_html/production/app/index.php(58): CodeIgniter\Boot::bootWeb()
+#10 {main}
+[Method: GET, Route: admin/settings/updater]
+in APPPATH/Views/errors/html/error_exception.php on line 201.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-12-11 02:54:27 --> Error: Call to undefined function get_company_title_with_fallback()
+[Method: GET, Route: admin/settings/updater]
+in APPPATH/Views/backend/admin/template.php on line 5.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/admin/Updater.php(14): view()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\admin\Updater->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(58): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-12-11 02:54:27 --> ErrorException: Uncaught Error: Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$uri in /home/c2581019c/public_html/production/app/app/Views/errors/html/error_exception.php:201
+Stack trace:
+#0 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(330): include()
+#1 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(333): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#2 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(194): CodeIgniter\Debug\Exceptions->render()
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#4 {main}
+  thrown
+【Previous Exception】
+Error
+Call to undefined function get_company_title_with_fallback()
+#0 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/View/View.php(234): include()
+#1 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Common.php(1171): CodeIgniter\View\View->render()
+#3 /home/c2581019c/public_html/production/app/app/Controllers/admin/Updater.php(14): view()
+#4 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\admin\Updater->index()
+#5 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#6 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#9 /home/c2581019c/public_html/production/app/index.php(58): CodeIgniter\Boot::bootWeb()
+#10 {main}
+[Method: GET, Route: admin/settings/updater]
+in APPPATH/Views/errors/html/error_exception.php on line 201.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-12-11 02:54:27 --> Error: Call to undefined function get_company_title_with_fallback()
+[Method: GET, Route: admin/settings/updater]
+in APPPATH/Views/backend/admin/template.php on line 5.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/admin/Updater.php(14): view()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\admin\Updater->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(58): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-12-11 02:54:27 --> ErrorException: Uncaught Error: Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$uri in /home/c2581019c/public_html/production/app/app/Views/errors/html/error_exception.php:201
+Stack trace:
+#0 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(330): include()
+#1 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(333): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#2 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(194): CodeIgniter\Debug\Exceptions->render()
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#4 {main}
+  thrown
+【Previous Exception】
+Error
+Call to undefined function get_company_title_with_fallback()
+#0 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/View/View.php(234): include()
+#1 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Common.php(1171): CodeIgniter\View\View->render()
+#3 /home/c2581019c/public_html/production/app/app/Controllers/admin/Updater.php(14): view()
+#4 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\admin\Updater->index()
+#5 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#6 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#9 /home/c2581019c/public_html/production/app/index.php(58): CodeIgniter\Boot::bootWeb()
+#10 {main}
+[Method: GET, Route: admin/settings/updater]
+in APPPATH/Views/errors/html/error_exception.php on line 201.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-12-11 02:54:28 --> Error: Call to undefined function get_company_title_with_fallback()
+[Method: GET, Route: admin/settings/updater]
+in APPPATH/Views/backend/admin/template.php on line 5.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/admin/Updater.php(14): view()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\admin\Updater->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(58): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-12-11 02:54:28 --> ErrorException: Uncaught Error: Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$uri in /home/c2581019c/public_html/production/app/app/Views/errors/html/error_exception.php:201
+Stack trace:
+#0 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(330): include()
+#1 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(333): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#2 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(194): CodeIgniter\Debug\Exceptions->render()
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#4 {main}
+  thrown
+【Previous Exception】
+Error
+Call to undefined function get_company_title_with_fallback()
+#0 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/View/View.php(234): include()
+#1 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Common.php(1171): CodeIgniter\View\View->render()
+#3 /home/c2581019c/public_html/production/app/app/Controllers/admin/Updater.php(14): view()
+#4 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\admin\Updater->index()
+#5 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#6 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#9 /home/c2581019c/public_html/production/app/index.php(58): CodeIgniter\Boot::bootWeb()
+#10 {main}
+[Method: GET, Route: admin/settings/updater]
+in APPPATH/Views/errors/html/error_exception.php on line 201.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-12-11 02:54:35 --> Error: Call to undefined function App\Models\get_current_language()
+[Method: GET, Route: /]
+in APPPATH/Models/Partners_model.php on line 142.
+ 1 APPPATH/Models/Partners_model.php(150): App\Models\Partners_model->getRequestedLanguage()
+ 2 APPPATH/Controllers/admin/Dashboard.php(184): App\Models\Partners_model->list()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\admin\Dashboard->index()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(58): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-12-11 02:54:35 --> ErrorException: Uncaught Error: Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$uri in /home/c2581019c/public_html/production/app/app/Views/errors/html/error_exception.php:201
+Stack trace:
+#0 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(330): include()
+#1 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(333): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#2 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(194): CodeIgniter\Debug\Exceptions->render()
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#4 {main}
+  thrown
+【Previous Exception】
+Error
+Call to undefined function App\Models\get_current_language()
+#0 /home/c2581019c/public_html/production/app/app/Models/Partners_model.php(150): App\Models\Partners_model->getRequestedLanguage()
+#1 /home/c2581019c/public_html/production/app/app/Controllers/admin/Dashboard.php(184): App\Models\Partners_model->list()
+#2 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\admin\Dashboard->index()
+#3 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#4 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#6 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#7 /home/c2581019c/public_html/production/app/index.php(58): CodeIgniter\Boot::bootWeb()
+#8 {main}
+[Method: GET, Route: /]
+in APPPATH/Views/errors/html/error_exception.php on line 201.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-12-11 02:54:38 --> Error: Call to undefined function App\Models\get_current_language()
+[Method: GET, Route: /]
+in APPPATH/Models/Partners_model.php on line 142.
+ 1 APPPATH/Models/Partners_model.php(150): App\Models\Partners_model->getRequestedLanguage()
+ 2 APPPATH/Controllers/admin/Dashboard.php(184): App\Models\Partners_model->list()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\admin\Dashboard->index()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(58): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-12-11 02:54:38 --> ErrorException: Uncaught Error: Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$uri in /home/c2581019c/public_html/production/app/app/Views/errors/html/error_exception.php:201
+Stack trace:
+#0 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(330): include()
+#1 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(333): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#2 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(194): CodeIgniter\Debug\Exceptions->render()
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#4 {main}
+  thrown
+【Previous Exception】
+Error
+Call to undefined function App\Models\get_current_language()
+#0 /home/c2581019c/public_html/production/app/app/Models/Partners_model.php(150): App\Models\Partners_model->getRequestedLanguage()
+#1 /home/c2581019c/public_html/production/app/app/Controllers/admin/Dashboard.php(184): App\Models\Partners_model->list()
+#2 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\admin\Dashboard->index()
+#3 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#4 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#6 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#7 /home/c2581019c/public_html/production/app/index.php(58): CodeIgniter\Boot::bootWeb()
+#8 {main}
+[Method: GET, Route: /]
+in APPPATH/Views/errors/html/error_exception.php on line 201.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-12-11 02:54:38 --> Error: Call to undefined function App\Models\get_current_language()
+[Method: GET, Route: /]
+in APPPATH/Models/Partners_model.php on line 142.
+ 1 APPPATH/Models/Partners_model.php(150): App\Models\Partners_model->getRequestedLanguage()
+ 2 APPPATH/Controllers/admin/Dashboard.php(184): App\Models\Partners_model->list()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\admin\Dashboard->index()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(58): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-12-11 02:54:38 --> ErrorException: Uncaught Error: Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$uri in /home/c2581019c/public_html/production/app/app/Views/errors/html/error_exception.php:201
+Stack trace:
+#0 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(330): include()
+#1 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(333): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#2 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(194): CodeIgniter\Debug\Exceptions->render()
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#4 {main}
+  thrown
+【Previous Exception】
+Error
+Call to undefined function App\Models\get_current_language()
+#0 /home/c2581019c/public_html/production/app/app/Models/Partners_model.php(150): App\Models\Partners_model->getRequestedLanguage()
+#1 /home/c2581019c/public_html/production/app/app/Controllers/admin/Dashboard.php(184): App\Models\Partners_model->list()
+#2 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\admin\Dashboard->index()
+#3 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#4 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#6 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#7 /home/c2581019c/public_html/production/app/index.php(58): CodeIgniter\Boot::bootWeb()
+#8 {main}
+[Method: GET, Route: /]
+in APPPATH/Views/errors/html/error_exception.php on line 201.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-12-11 02:54:39 --> Error: Call to undefined function App\Models\get_current_language()
+[Method: GET, Route: /]
+in APPPATH/Models/Partners_model.php on line 142.
+ 1 APPPATH/Models/Partners_model.php(150): App\Models\Partners_model->getRequestedLanguage()
+ 2 APPPATH/Controllers/admin/Dashboard.php(184): App\Models\Partners_model->list()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\admin\Dashboard->index()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(58): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-12-11 02:54:39 --> ErrorException: Uncaught Error: Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$uri in /home/c2581019c/public_html/production/app/app/Views/errors/html/error_exception.php:201
+Stack trace:
+#0 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(330): include()
+#1 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(333): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#2 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(194): CodeIgniter\Debug\Exceptions->render()
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#4 {main}
+  thrown
+【Previous Exception】
+Error
+Call to undefined function App\Models\get_current_language()
+#0 /home/c2581019c/public_html/production/app/app/Models/Partners_model.php(150): App\Models\Partners_model->getRequestedLanguage()
+#1 /home/c2581019c/public_html/production/app/app/Controllers/admin/Dashboard.php(184): App\Models\Partners_model->list()
+#2 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\admin\Dashboard->index()
+#3 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#4 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#6 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#7 /home/c2581019c/public_html/production/app/index.php(58): CodeIgniter\Boot::bootWeb()
+#8 {main}
+[Method: GET, Route: /]
+in APPPATH/Views/errors/html/error_exception.php on line 201.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-12-11 02:54:39 --> Error: Call to undefined function App\Models\get_current_language()
+[Method: GET, Route: /]
+in APPPATH/Models/Partners_model.php on line 142.
+ 1 APPPATH/Models/Partners_model.php(150): App\Models\Partners_model->getRequestedLanguage()
+ 2 APPPATH/Controllers/admin/Dashboard.php(184): App\Models\Partners_model->list()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\admin\Dashboard->index()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(58): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-12-11 02:54:39 --> ErrorException: Uncaught Error: Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$uri in /home/c2581019c/public_html/production/app/app/Views/errors/html/error_exception.php:201
+Stack trace:
+#0 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(330): include()
+#1 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(333): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#2 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(194): CodeIgniter\Debug\Exceptions->render()
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#4 {main}
+  thrown
+【Previous Exception】
+Error
+Call to undefined function App\Models\get_current_language()
+#0 /home/c2581019c/public_html/production/app/app/Models/Partners_model.php(150): App\Models\Partners_model->getRequestedLanguage()
+#1 /home/c2581019c/public_html/production/app/app/Controllers/admin/Dashboard.php(184): App\Models\Partners_model->list()
+#2 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\admin\Dashboard->index()
+#3 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#4 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#6 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#7 /home/c2581019c/public_html/production/app/index.php(58): CodeIgniter\Boot::bootWeb()
+#8 {main}
+[Method: GET, Route: /]
+in APPPATH/Views/errors/html/error_exception.php on line 201.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-12-11 02:54:39 --> Error: Call to undefined function App\Models\get_current_language()
+[Method: GET, Route: /]
+in APPPATH/Models/Partners_model.php on line 142.
+ 1 APPPATH/Models/Partners_model.php(150): App\Models\Partners_model->getRequestedLanguage()
+ 2 APPPATH/Controllers/admin/Dashboard.php(184): App\Models\Partners_model->list()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\admin\Dashboard->index()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(58): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-12-11 02:54:39 --> ErrorException: Uncaught Error: Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$uri in /home/c2581019c/public_html/production/app/app/Views/errors/html/error_exception.php:201
+Stack trace:
+#0 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(330): include()
+#1 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(333): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#2 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(194): CodeIgniter\Debug\Exceptions->render()
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#4 {main}
+  thrown
+【Previous Exception】
+Error
+Call to undefined function App\Models\get_current_language()
+#0 /home/c2581019c/public_html/production/app/app/Models/Partners_model.php(150): App\Models\Partners_model->getRequestedLanguage()
+#1 /home/c2581019c/public_html/production/app/app/Controllers/admin/Dashboard.php(184): App\Models\Partners_model->list()
+#2 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\admin\Dashboard->index()
+#3 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#4 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#6 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#7 /home/c2581019c/public_html/production/app/index.php(58): CodeIgniter\Boot::bootWeb()
+#8 {main}
+[Method: GET, Route: /]
+in APPPATH/Views/errors/html/error_exception.php on line 201.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-12-11 02:55:04 --> Error: Call to undefined function App\Models\get_current_language()
+[Method: GET, Route: /]
+in APPPATH/Models/Partners_model.php on line 142.
+ 1 APPPATH/Models/Partners_model.php(150): App\Models\Partners_model->getRequestedLanguage()
+ 2 APPPATH/Controllers/admin/Dashboard.php(184): App\Models\Partners_model->list()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\admin\Dashboard->index()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(58): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-12-11 02:55:04 --> ErrorException: Uncaught Error: Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$uri in /home/c2581019c/public_html/production/app/app/Views/errors/html/error_exception.php:201
+Stack trace:
+#0 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(330): include()
+#1 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(333): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#2 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(194): CodeIgniter\Debug\Exceptions->render()
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#4 {main}
+  thrown
+【Previous Exception】
+Error
+Call to undefined function App\Models\get_current_language()
+#0 /home/c2581019c/public_html/production/app/app/Models/Partners_model.php(150): App\Models\Partners_model->getRequestedLanguage()
+#1 /home/c2581019c/public_html/production/app/app/Controllers/admin/Dashboard.php(184): App\Models\Partners_model->list()
+#2 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\admin\Dashboard->index()
+#3 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#4 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#6 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#7 /home/c2581019c/public_html/production/app/index.php(58): CodeIgniter\Boot::bootWeb()
+#8 {main}
+[Method: GET, Route: /]
+in APPPATH/Views/errors/html/error_exception.php on line 201.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-12-11 02:55:05 --> Error: Call to undefined function App\Models\get_current_language()
+[Method: GET, Route: /]
+in APPPATH/Models/Partners_model.php on line 142.
+ 1 APPPATH/Models/Partners_model.php(150): App\Models\Partners_model->getRequestedLanguage()
+ 2 APPPATH/Controllers/admin/Dashboard.php(184): App\Models\Partners_model->list()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\admin\Dashboard->index()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(58): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-12-11 02:55:05 --> ErrorException: Uncaught Error: Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$uri in /home/c2581019c/public_html/production/app/app/Views/errors/html/error_exception.php:201
+Stack trace:
+#0 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(330): include()
+#1 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(333): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#2 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(194): CodeIgniter\Debug\Exceptions->render()
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#4 {main}
+  thrown
+【Previous Exception】
+Error
+Call to undefined function App\Models\get_current_language()
+#0 /home/c2581019c/public_html/production/app/app/Models/Partners_model.php(150): App\Models\Partners_model->getRequestedLanguage()
+#1 /home/c2581019c/public_html/production/app/app/Controllers/admin/Dashboard.php(184): App\Models\Partners_model->list()
+#2 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\admin\Dashboard->index()
+#3 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#4 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#6 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#7 /home/c2581019c/public_html/production/app/index.php(58): CodeIgniter\Boot::bootWeb()
+#8 {main}
+[Method: GET, Route: /]
+in APPPATH/Views/errors/html/error_exception.php on line 201.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-12-11 02:55:06 --> Error: Call to undefined function App\Models\get_current_language()
+[Method: GET, Route: /]
+in APPPATH/Models/Partners_model.php on line 142.
+ 1 APPPATH/Models/Partners_model.php(150): App\Models\Partners_model->getRequestedLanguage()
+ 2 APPPATH/Controllers/admin/Dashboard.php(184): App\Models\Partners_model->list()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\admin\Dashboard->index()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(58): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-12-11 02:55:06 --> ErrorException: Uncaught Error: Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$uri in /home/c2581019c/public_html/production/app/app/Views/errors/html/error_exception.php:201
+Stack trace:
+#0 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(330): include()
+#1 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(333): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#2 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(194): CodeIgniter\Debug\Exceptions->render()
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#4 {main}
+  thrown
+【Previous Exception】
+Error
+Call to undefined function App\Models\get_current_language()
+#0 /home/c2581019c/public_html/production/app/app/Models/Partners_model.php(150): App\Models\Partners_model->getRequestedLanguage()
+#1 /home/c2581019c/public_html/production/app/app/Controllers/admin/Dashboard.php(184): App\Models\Partners_model->list()
+#2 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\admin\Dashboard->index()
+#3 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#4 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#6 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#7 /home/c2581019c/public_html/production/app/index.php(58): CodeIgniter\Boot::bootWeb()
+#8 {main}
+[Method: GET, Route: /]
+in APPPATH/Views/errors/html/error_exception.php on line 201.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-12-11 02:55:06 --> Error: Call to undefined function App\Models\get_current_language()
+[Method: GET, Route: /]
+in APPPATH/Models/Partners_model.php on line 142.
+ 1 APPPATH/Models/Partners_model.php(150): App\Models\Partners_model->getRequestedLanguage()
+ 2 APPPATH/Controllers/admin/Dashboard.php(184): App\Models\Partners_model->list()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\admin\Dashboard->index()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(58): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-12-11 02:55:06 --> ErrorException: Uncaught Error: Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$uri in /home/c2581019c/public_html/production/app/app/Views/errors/html/error_exception.php:201
+Stack trace:
+#0 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(330): include()
+#1 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(333): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#2 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(194): CodeIgniter\Debug\Exceptions->render()
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#4 {main}
+  thrown
+【Previous Exception】
+Error
+Call to undefined function App\Models\get_current_language()
+#0 /home/c2581019c/public_html/production/app/app/Models/Partners_model.php(150): App\Models\Partners_model->getRequestedLanguage()
+#1 /home/c2581019c/public_html/production/app/app/Controllers/admin/Dashboard.php(184): App\Models\Partners_model->list()
+#2 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\admin\Dashboard->index()
+#3 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#4 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#6 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#7 /home/c2581019c/public_html/production/app/index.php(58): CodeIgniter\Boot::bootWeb()
+#8 {main}
+[Method: GET, Route: /]
+in APPPATH/Views/errors/html/error_exception.php on line 201.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-12-11 02:55:06 --> Error: Call to undefined function App\Models\get_current_language()
+[Method: GET, Route: /]
+in APPPATH/Models/Partners_model.php on line 142.
+ 1 APPPATH/Models/Partners_model.php(150): App\Models\Partners_model->getRequestedLanguage()
+ 2 APPPATH/Controllers/admin/Dashboard.php(184): App\Models\Partners_model->list()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\admin\Dashboard->index()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(58): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-12-11 02:55:06 --> ErrorException: Uncaught Error: Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$uri in /home/c2581019c/public_html/production/app/app/Views/errors/html/error_exception.php:201
+Stack trace:
+#0 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(330): include()
+#1 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(333): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#2 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(194): CodeIgniter\Debug\Exceptions->render()
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#4 {main}
+  thrown
+【Previous Exception】
+Error
+Call to undefined function App\Models\get_current_language()
+#0 /home/c2581019c/public_html/production/app/app/Models/Partners_model.php(150): App\Models\Partners_model->getRequestedLanguage()
+#1 /home/c2581019c/public_html/production/app/app/Controllers/admin/Dashboard.php(184): App\Models\Partners_model->list()
+#2 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\admin\Dashboard->index()
+#3 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#4 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#6 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#7 /home/c2581019c/public_html/production/app/index.php(58): CodeIgniter\Boot::bootWeb()
+#8 {main}
+[Method: GET, Route: /]
+in APPPATH/Views/errors/html/error_exception.php on line 201.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-12-11 02:55:06 --> Error: Call to undefined function App\Models\get_current_language()
+[Method: GET, Route: /]
+in APPPATH/Models/Partners_model.php on line 142.
+ 1 APPPATH/Models/Partners_model.php(150): App\Models\Partners_model->getRequestedLanguage()
+ 2 APPPATH/Controllers/admin/Dashboard.php(184): App\Models\Partners_model->list()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\admin\Dashboard->index()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(58): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-12-11 02:55:07 --> ErrorException: Uncaught Error: Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$uri in /home/c2581019c/public_html/production/app/app/Views/errors/html/error_exception.php:201
+Stack trace:
+#0 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(330): include()
+#1 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(333): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#2 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(194): CodeIgniter\Debug\Exceptions->render()
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#4 {main}
+  thrown
+【Previous Exception】
+Error
+Call to undefined function App\Models\get_current_language()
+#0 /home/c2581019c/public_html/production/app/app/Models/Partners_model.php(150): App\Models\Partners_model->getRequestedLanguage()
+#1 /home/c2581019c/public_html/production/app/app/Controllers/admin/Dashboard.php(184): App\Models\Partners_model->list()
+#2 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\admin\Dashboard->index()
+#3 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#4 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#6 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#7 /home/c2581019c/public_html/production/app/index.php(58): CodeIgniter\Boot::bootWeb()
+#8 {main}
+[Method: GET, Route: /]
+in APPPATH/Views/errors/html/error_exception.php on line 201.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-12-11 02:55:12 --> Error: Call to undefined function App\Models\get_current_language()
+[Method: GET, Route: admin/dashboard]
+in APPPATH/Models/Partners_model.php on line 142.
+ 1 APPPATH/Models/Partners_model.php(150): App\Models\Partners_model->getRequestedLanguage()
+ 2 APPPATH/Controllers/admin/Dashboard.php(184): App\Models\Partners_model->list()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\admin\Dashboard->index()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(58): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-12-11 02:55:12 --> ErrorException: Uncaught Error: Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$uri in /home/c2581019c/public_html/production/app/app/Views/errors/html/error_exception.php:201
+Stack trace:
+#0 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(330): include()
+#1 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(333): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#2 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Debug/Exceptions.php(194): CodeIgniter\Debug\Exceptions->render()
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#4 {main}
+  thrown
+【Previous Exception】
+Error
+Call to undefined function App\Models\get_current_language()
+#0 /home/c2581019c/public_html/production/app/app/Models/Partners_model.php(150): App\Models\Partners_model->getRequestedLanguage()
+#1 /home/c2581019c/public_html/production/app/app/Controllers/admin/Dashboard.php(184): App\Models\Partners_model->list()
+#2 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\admin\Dashboard->index()
+#3 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#4 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#6 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#7 /home/c2581019c/public_html/production/app/index.php(58): CodeIgniter\Boot::bootWeb()
+#8 {main}
+[Method: GET, Route: admin/dashboard]
+in APPPATH/Views/errors/html/error_exception.php on line 201.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2025-12-11 02:55:56 --> mysqli_sql_exception: Duplicate column name 'priority' in /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(312): mysqli->query()
+#1 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Database/Forge.php(772): CodeIgniter\Database\BaseConnection->query()
+#4 /home/c2581019c/public_html/production/app/app/Database/Migrations/2023-11-05-064053_AddPriorityField.php(36): CodeIgniter\Database\Forge->addColumn()
+#5 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(866): CodeIgniter\Queue\Database\Migrations\AddPriorityField->up()
+#6 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate()
+#7 /home/c2581019c/public_html/production/app/app/Controllers/admin/Updater.php(259): CodeIgniter\Database\MigrationRunner->latest()
+#8 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\admin\Updater->upload_update_file()
+#9 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#10 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#13 /home/c2581019c/public_html/production/app/index.php(58): CodeIgniter\Boot::bootWeb()
+#14 {main}
+DEBUG - 2025-12-11 00:00:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-11 02:45:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-11 02:45:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-11 02:45:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-11 02:45:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-11 03:15:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-11 03:58:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-11 03:58:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-11 08:06:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-11 09:02:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-11 21:39:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-11 14:39:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-11 18:20:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-11 18:20:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-11 18:20:18 --> Language filter: Set language to 'en' from request headers
+INFO - 2025-12-11 18:20:18 --> Language filter: Set language to 'en' from request headers
+ERROR - 2025-12-11 18:20:18 --> Xendit API key is not configured
+ERROR - 2025-12-11 18:20:18 --> Xendit API key is not configured
+DEBUG - 2025-12-11 18:20:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-11 18:20:19 --> Language filter: Set language to 'en' from request headers
+ERROR - 2025-12-11 18:20:19 --> Xendit API key is not configured
+DEBUG - 2025-12-11 18:28:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-11 18:28:14 --> Language filter: Set language to 'en' from request headers
+ERROR - 2025-12-11 18:28:14 --> Xendit API key is not configured

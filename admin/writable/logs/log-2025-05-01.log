@@ -1,0 +1,68 @@
+ERROR - 2025-05-01 02:56:29 --> mysqli_sql_exception: MySQL server has gone away in /home/c2581019c/public_html/staging/app/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/c2581019c/public_html/staging/app/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(312): mysqli->query()
+#1 /home/c2581019c/public_html/staging/app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/c2581019c/public_html/staging/app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/c2581019c/public_html/staging/app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query()
+#4 /home/c2581019c/public_html/staging/app/app/Helpers/function_helper.php(1493): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/c2581019c/public_html/staging/app/app/Controllers/BaseController.php(73): fetch_details()
+#6 /home/c2581019c/public_html/staging/app/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\BaseController->initController()
+#7 /home/c2581019c/public_html/staging/app/vendor/codeigniter4/framework/system/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+#8 /home/c2581019c/public_html/staging/app/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/c2581019c/public_html/staging/app/vendor/codeigniter4/framework/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 /home/c2581019c/public_html/staging/app/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#11 /home/c2581019c/public_html/staging/app/index.php(58): CodeIgniter\Boot::bootWeb()
+#12 {main}
+CRITICAL - 2025-05-01 02:56:29 --> CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away
+[Method: GET, Route: lang/en]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Helpers/function_helper.php(1493): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/BaseController.php(73): fetch_details()
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\BaseController->initController()
+ 5 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(58): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-05-01 02:56:29 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Helpers/function_helper.php(1493): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/BaseController.php(73): fetch_details()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\BaseController->initController()
+ 7 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(58): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-05-01 02:56:29 --> [Caused by] mysqli_sql_exception: MySQL server has gone away
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Helpers/function_helper.php(1493): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/BaseController.php(73): fetch_details()
+ 7 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\BaseController->initController()
+ 8 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(58): CodeIgniter\Boot::bootWeb()
+ERROR - 2025-05-01 22:53:49 -->  Params passed: [] Issue => ErrorException: file_get_contents(https://maps.googleapis.com/maps/api/geocode/json?place_id=&amp;key=AIzaSyCwfukVGxK_naIuOCyp5q_pLwbyi4Hbprw): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/c2581019c/public_html/staging/app/app/Controllers/api/V1.php:7326
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/c2581019c/public_html/staging/app/app/Controllers/api/V1.php(7326): file_get_contents()
+#2 /home/c2581019c/public_html/staging/app/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\api\V1->get_place_details_for_web()
+#3 /home/c2581019c/public_html/staging/app/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#4 /home/c2581019c/public_html/staging/app/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/c2581019c/public_html/staging/app/vendor/codeigniter4/framework/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#6 /home/c2581019c/public_html/staging/app/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#7 /home/c2581019c/public_html/staging/app/index.php(58): CodeIgniter\Boot::bootWeb()
+#8 {main}- at 2025-05-01 22:53:49--> app/Controllers/api/V1.php - get_places_for_web()
+ERROR - 2025-05-01 23:48:36 -->    Params passed :: {"email":"madwell237@gmail.com","mobile":"654424214","web_fcm_id":"e2_hYPJFj4wDdqrtfIH3Ur:APA91bFJl6mxUIb0l8FZEHj7_erjgOMgeZKVZCiOiVLxkru4zxAvZIi00ZncRpj1MYL8CV-gvLaLuhJoNlAUUqW66-aQRetCkMxWyWz37EKN7ifIG4ba_xQ","uid":"YuXWBjsNDFUe8WCnimjUVRqpHha2","username":"Madwell"} Responce => eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3NDYxMzk3MTYsImlzcyI6ImVkZW1hbmQiLCJleHAiOjE3Nzc2NzU3MTYsInN1YiI6ImVkZW1hbmRfYXV0aGVudGljYXRpb24iLCJ1c2VyX2lkIjoiMyJ9.RwIm97q2k4ov_Cp3-7vgdTdI6h65M1OfA-F-v9dldJU- at 2025-05-01 23:48:36--> app/Controllers/api/V1.php - manage_user()
+ERROR - 2025-05-01 23:49:56 -->    Params passed :: {"email":"madwell237@gmail.com","mobile":"6989898989","web_fcm_id":"e2_hYPJFj4wDdqrtfIH3Ur:APA91bFJl6mxUIb0l8FZEHj7_erjgOMgeZKVZCiOiVLxkru4zxAvZIi00ZncRpj1MYL8CV-gvLaLuhJoNlAUUqW66-aQRetCkMxWyWz37EKN7ifIG4ba_xQ","uid":"ZIiIvBu7tTWQp6VRmwJn7PXMqOL2","username":"Madwell"} Responce => eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3NDYxMzk3OTYsImlzcyI6ImVkZW1hbmQiLCJleHAiOjE3Nzc2NzU3OTYsInN1YiI6ImVkZW1hbmRfYXV0aGVudGljYXRpb24iLCJ1c2VyX2lkIjoiNCJ9.x9GTMcPRue96ZBkO4ESVCuTBMQ1Eh-opTjmO-1BPaqo- at 2025-05-01 23:49:56--> app/Controllers/api/V1.php - manage_user()

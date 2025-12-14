@@ -1,0 +1,30 @@
+
+---
+deployment:
+  tasks:
+    - export DEPLOY_DIRECTORY="${HOME}/path/to/deployment/directory"
+    - echo "Starting deployment process..."
+
+    # Step 1: Reset the repository and clean untracked files
+    - echo "Resetting repository and cleaning untracked files..."
+    - /usr/bin/git --work-tree="$DEPLOY_DIRECTORY" --git-dir="$DEPLOY_DIRECTORY/.git" reset --hard HEAD
+    - /usr/bin/git --work-tree="$DEPLOY_DIRECTORY" --git-dir="$DEPLOY_DIRECTORY/.git" clean -df
+
+    # Step 2: Pull the latest changes
+    - echo "Pulling latest changes from the repository..."
+    - /usr/bin/git --work-tree="$DEPLOY_DIRECTORY" --git-dir="$DEPLOY_DIRECTORY/.git" pull origin main
+
+    # Step 3: Install PHP dependencies using Composer
+    - echo "Installing PHP dependencies with Composer..."
+    - /usr/local/bin/php /usr/local/bin/composer install --no-interaction --prefer-dist --no-dev --optimize-autoloader --working-dir="$DEPLOY_DIRECTORY"
+
+    # Step 4: Install Node.js dependencies and build assets
+    - echo "Installing Node.js dependencies and building assets..."
+    - cd "$DEPLOY_DIRECTORY" && /usr/local/bin/npm ci
+    - cd "$DEPLOY_DIRECTORY" && /usr/local/bin/npm run build
+
+    # Step 5: Run any additional deployment scripts
+    - echo "Running additional deployment scripts..."
+    - /bin/bash "$DEPLOY_DIRECTORY/deploy.sh"
+
+    - echo "Deployment process completed successfully."

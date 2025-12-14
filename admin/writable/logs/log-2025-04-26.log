@@ -1,0 +1,73 @@
+ERROR - 2025-04-26 12:50:23 -->  Params passed: [] Issue => ErrorException: file_get_contents(https://maps.googleapis.com/maps/api/geocode/json?place_id=&amp;key=AIzaSyB8CndmCmuok4MdCXj3Q_8X4I9im5RFiUQ): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/c2581019c/public_html/staging/admin/app/Controllers/api/V1.php:7326
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/c2581019c/public_html/staging/admin/app/Controllers/api/V1.php(7326): file_get_contents()
+#2 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\api\V1->get_place_details_for_web()
+#3 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#4 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#6 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#7 /home/c2581019c/public_html/staging/admin/index.php(58): CodeIgniter\Boot::bootWeb()
+#8 {main}- at 2025-04-26 12:50:23--> app/Controllers/api/V1.php - get_places_for_web()
+ERROR - 2025-04-26 16:04:42 -->    Params passed :: {"email":"rostapig@gmail.com","mobile":"4184558720","web_fcm_id":"d83Xhf2_VImmgrixvv0Xj9:APA91bE3C2h-ghpo3slFuYlz4pIzpU0NwYq2emvGgnnmWqT1GLTC0CoE05SG0O8tpE9VbzjXZCREEJnvMHvmi_BcdKS_X00Duc4IAyqxee9W-6FdR5VXTT0","uid":"mN2Pama94SdvAvPAT4VLcAJOK7R2","username":"rossini tapigue"} Responce => eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3NDU2Nzk4ODIsImlzcyI6ImVkZW1hbmQiLCJleHAiOjE3NzcyMTU4ODIsInN1YiI6ImVkZW1hbmRfYXV0aGVudGljYXRpb24iLCJ1c2VyX2lkIjoiMiJ9.8lSr_UNanpI7_RHM3AdU7oha40EYitDLJqxtwwIrKPE- at 2025-04-26 16:04:42--> app/Controllers/api/V1.php - manage_user()
+ERROR - 2025-04-26 16:18:15 --> Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3NDU2Nzk4ODIsImlzcyI6ImVkZW1hbmQiLCJleHAiOjE3NzcyMTU4ODIsInN1YiI6ImVkZW1hbmRfYXV0aGVudGljYXRpb24iLCJ1c2VyX2lkIjoiMiJ9.8lSr_UNanpI7_RHM3AdU7oha40EYitDLJqxtwwIrKPE Params passed: [] Issue => ErrorException: file_get_contents(https://maps.googleapis.com/maps/api/geocode/json?place_id=&amp;key=AIzaSyB8CndmCmuok4MdCXj3Q_8X4I9im5RFiUQ): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/c2581019c/public_html/staging/admin/app/Controllers/api/V1.php:7326
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/c2581019c/public_html/staging/admin/app/Controllers/api/V1.php(7326): file_get_contents()
+#2 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\api\V1->get_place_details_for_web()
+#3 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#4 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#6 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#7 /home/c2581019c/public_html/staging/admin/index.php(58): CodeIgniter\Boot::bootWeb()
+#8 {main}- at 2025-04-26 16:18:15--> app/Controllers/api/V1.php - get_places_for_web()
+ERROR - 2025-04-26 16:19:40 --> Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3NDU2Nzk4ODIsImlzcyI6ImVkZW1hbmQiLCJleHAiOjE3NzcyMTU4ODIsInN1YiI6ImVkZW1hbmRfYXV0aGVudGljYXRpb24iLCJ1c2VyX2lkIjoiMiJ9.8lSr_UNanpI7_RHM3AdU7oha40EYitDLJqxtwwIrKPE Params passed: [] Issue => ErrorException: file_get_contents(https://maps.googleapis.com/maps/api/geocode/json?place_id=&amp;key=AIzaSyB8CndmCmuok4MdCXj3Q_8X4I9im5RFiUQ): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/c2581019c/public_html/staging/admin/app/Controllers/api/V1.php:7326
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/c2581019c/public_html/staging/admin/app/Controllers/api/V1.php(7326): file_get_contents()
+#2 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\api\V1->get_place_details_for_web()
+#3 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#4 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#6 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#7 /home/c2581019c/public_html/staging/admin/index.php(58): CodeIgniter\Boot::bootWeb()
+#8 {main}- at 2025-04-26 16:19:40--> app/Controllers/api/V1.php - get_places_for_web()
+ERROR - 2025-04-26 16:19:48 --> Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3NDU2Nzk4ODIsImlzcyI6ImVkZW1hbmQiLCJleHAiOjE3NzcyMTU4ODIsInN1YiI6ImVkZW1hbmRfYXV0aGVudGljYXRpb24iLCJ1c2VyX2lkIjoiMiJ9.8lSr_UNanpI7_RHM3AdU7oha40EYitDLJqxtwwIrKPE Params passed: [] Issue => ErrorException: file_get_contents(https://maps.googleapis.com/maps/api/geocode/json?place_id=&amp;key=AIzaSyB8CndmCmuok4MdCXj3Q_8X4I9im5RFiUQ): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/c2581019c/public_html/staging/admin/app/Controllers/api/V1.php:7326
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/c2581019c/public_html/staging/admin/app/Controllers/api/V1.php(7326): file_get_contents()
+#2 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\api\V1->get_place_details_for_web()
+#3 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#4 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#6 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#7 /home/c2581019c/public_html/staging/admin/index.php(58): CodeIgniter\Boot::bootWeb()
+#8 {main}- at 2025-04-26 16:19:48--> app/Controllers/api/V1.php - get_places_for_web()
+ERROR - 2025-04-26 17:41:42 -->  Params passed: [] Issue => ErrorException: file_get_contents(https://maps.googleapis.com/maps/api/geocode/json?place_id=&amp;key=AIzaSyCwfukVGxK_naIuOCyp5q_pLwbyi4Hbprw): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/c2581019c/public_html/staging/admin/app/Controllers/api/V1.php:7326
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/c2581019c/public_html/staging/admin/app/Controllers/api/V1.php(7326): file_get_contents()
+#2 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\api\V1->get_place_details_for_web()
+#3 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#4 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#6 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#7 /home/c2581019c/public_html/staging/admin/index.php(58): CodeIgniter\Boot::bootWeb()
+#8 {main}- at 2025-04-26 17:41:42--> app/Controllers/api/V1.php - get_places_for_web()
+ERROR - 2025-04-26 17:55:43 -->  Params passed: [] Issue => ErrorException: file_get_contents(https://maps.googleapis.com/maps/api/geocode/json?place_id=&amp;key=AIzaSyCwfukVGxK_naIuOCyp5q_pLwbyi4Hbprw): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/c2581019c/public_html/staging/admin/app/Controllers/api/V1.php:7326
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/c2581019c/public_html/staging/admin/app/Controllers/api/V1.php(7326): file_get_contents()
+#2 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\api\V1->get_place_details_for_web()
+#3 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#4 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#6 /home/c2581019c/public_html/staging/admin/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#7 /home/c2581019c/public_html/staging/admin/index.php(58): CodeIgniter\Boot::bootWeb()
+#8 {main}- at 2025-04-26 17:55:43--> app/Controllers/api/V1.php - get_places_for_web()

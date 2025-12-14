@@ -1,0 +1,24 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/vendor
+/.pnp
+vendor
+.pnp.js
+.yarn/install-state.gz
+ 
+
+# local env files
+.env*.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+firebase-messaging-sw.js
+app/Config/Database.php
+.env

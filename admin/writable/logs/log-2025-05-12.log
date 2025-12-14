@@ -1,0 +1,25 @@
+ERROR - 2025-05-12 02:19:37 -->  Params passed: [] Issue => ErrorException: file_get_contents(https://maps.googleapis.com/maps/api/geocode/json?place_id=&amp;key=AIzaSyCwfukVGxK_naIuOCyp5q_pLwbyi4Hbprw): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/c2581019c/public_html/production/app/app/Controllers/api/V1.php:7326
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/c2581019c/public_html/production/app/app/Controllers/api/V1.php(7326): file_get_contents()
+#2 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\api\V1->get_place_details_for_web()
+#3 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#4 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#6 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#7 /home/c2581019c/public_html/production/app/index.php(58): CodeIgniter\Boot::bootWeb()
+#8 {main}- at 2025-05-12 02:19:37--> app/Controllers/api/V1.php - get_places_for_web()
+ERROR - 2025-05-12 02:22:31 -->  Params passed: [] Issue => ErrorException: file_get_contents(https://maps.googleapis.com/maps/api/geocode/json?place_id=&amp;key=AIzaSyCwfukVGxK_naIuOCyp5q_pLwbyi4Hbprw): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/c2581019c/public_html/production/app/app/Controllers/api/V1.php:7326
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/c2581019c/public_html/production/app/app/Controllers/api/V1.php(7326): file_get_contents()
+#2 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\api\V1->get_place_details_for_web()
+#3 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#4 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#6 /home/c2581019c/public_html/production/app/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#7 /home/c2581019c/public_html/production/app/index.php(58): CodeIgniter\Boot::bootWeb()
+#8 {main}- at 2025-05-12 02:22:31--> app/Controllers/api/V1.php - get_places_for_web()
+ERROR - 2025-05-12 02:23:07 -->    Params passed :: {"email":"madwell237@gmail.com","mobile":"6989898989","web_fcm_id":"dalIypISTin8yLK6m7BwrS:APA91bGZU6MoX13xfL5TwCi7Pc-jDJV3_9BnOpcy-Vj7tB8du_eHINqqBWBz1IC0e9eV8FhcYH67mSgi9RsVNG9vN-3DEVMHdl123sDM8krffKhzl2LCQfI","uid":"v9afUeERZwXdr8KJFUldxh2Lhkt2","username":"Madwell"} Responce => eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3NDcwMTI5ODcsImlzcyI6ImVkZW1hbmQiLCJleHAiOjE3Nzg1NDg5ODcsInN1YiI6ImVkZW1hbmRfYXV0aGVudGljYXRpb24iLCJ1c2VyX2lkIjoiNCJ9.ErUMzFH4Pr_sF_GX-GFIHBQet3ApkhOlahhYSnXj9r0- at 2025-05-12 02:23:07--> app/Controllers/api/V1.php - manage_user()

@@ -1,0 +1,6 @@
+{
+	"update-files/app.zip":"./",
+	"update-files/public.zip":"./",
+	"update-files/composer.lock":"./",
+	"update-files/composer.json":"./"
+}
