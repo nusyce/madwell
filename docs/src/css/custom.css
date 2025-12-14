@@ -1,0 +1,181 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #0277fa; /* Your primary blue color */
+  --ifm-color-primary-dark: #0166e1; /* Slightly darker blue */
+  --ifm-color-primary-darker: #015ccf; /* Even darker blue */
+  --ifm-color-primary-darkest: #0148a3; /* Darkest blue */
+  --ifm-color-primary-light: #1a85fb; /* Slightly lighter blue */
+  --ifm-color-primary-lighter: #2d8dfb; /* Even lighter blue */
+  --ifm-color-primary-lightest: #4f9ffc; /* Lightest blue */
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #4f9ffc; /* Light blue for better visibility on dark backgrounds */
+  --ifm-color-primary-dark: #3d8ffb; /* Slightly darker light blue */
+  --ifm-color-primary-darker: #2d8dfb; /* Even darker light blue */
+  --ifm-color-primary-darkest: #1a85fb; /* Darkest light blue */
+  --ifm-color-primary-light: #6aaffd; /* Slightly lighter blue */
+  --ifm-color-primary-lighter: #7fb9fd; /* Even lighter blue */
+  --ifm-color-primary-lightest: #9cc8fe; /* Lightest blue */
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.primary_text{
+  color: var(--ifm-color-primary);
+}
+
+/* Add this to your custom.css file */
+.circles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.circles li {
+  position: absolute;
+  display: block;
+  list-style: none;
+  width: 20px;
+  height: 20px;
+  background-color: #193FA7;
+  opacity: 0.3;
+  animation: animate 25s linear infinite;
+  bottom: -150px;
+  z-index: -1;
+}
+
+.circles li:nth-child(1) {
+  left: 25%;
+  width: 80px;
+  height: 80px;
+  animation-delay: 0s;
+}
+
+.circles li:nth-child(2) {
+  left: 10%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 2s;
+  animation-duration: 12s;
+}
+
+.circles li:nth-child(3) {
+  left: 70%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 4s;
+}
+
+.circles li:nth-child(4) {
+  left: 40%;
+  width: 60px;
+  height: 60px;
+  animation-delay: 0s;
+  animation-duration: 18s;
+}
+
+.circles li:nth-child(5) {
+  left: 65%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 0s;
+}
+
+.circles li:nth-child(6) {
+  left: 75%;
+  width: 110px;
+  height: 110px;
+  animation-delay: 3s;
+}
+
+.circles li:nth-child(7) {
+  left: 35%;
+  width: 150px;
+  height: 150px;
+  animation-delay: 7s;
+}
+
+.circles li:nth-child(8) {
+  left: 50%;
+  width: 25px;
+  height: 25px;
+  animation-delay: 15s;
+  animation-duration: 45s;
+}
+
+.circles li:nth-child(9) {
+  left: 20%;
+  width: 15px;
+  height: 15px;
+  animation-delay: 2s;
+  animation-duration: 35s;
+}
+
+.circles li:nth-child(10) {
+  left: 85%;
+  width: 150px;
+  height: 150px;
+  animation-delay: 0s;
+  animation-duration: 11s;
+}
+
+@keyframes animate {
+  0% {
+      transform: translateY(0) rotate(0deg);
+      opacity: 1;
+      border-radius: 0;
+  }
+  100% {
+      transform: translateY(-1000px) rotate(720deg);
+      opacity: 0;
+      border-radius: 50%;
+  }
+}
+
+
+.custom-next-box-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.custom-next-box {
+  text-align: right;
+  margin-top: 2rem;
+  /* border: 1px solid lightgray;
+  border-radius: 6px;
+  padding: 1rem 1.5rem; */
+  width: 50%;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+/* 
+.custom-next-box:hover {
+ border: 1px solid var(--ifm-color-primary);
+} */
+
+.custom-next-label {
+  margin-bottom: 0.2rem;
+  color: var(--ifm-font-color-base); /* Optional: adjusts based on theme */
+  font-size: 1rem;
+}
+
+.custom-next-link {
+  color: var(--ifm-color-primary);
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+}
