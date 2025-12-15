@@ -40,5 +40,3 @@ next-env.d.ts
 
 # generated sitemap (served via API route)
 public/sitemap.xml
-
-.env
