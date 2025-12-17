@@ -1,0 +1,38 @@
+{
+  "hosting": {
+    "public": "out",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "cleanUrls": true,
+    "trailingSlash": false,
+    "rewrites": [
+      {
+        "source": "/services/**",
+        "destination": "/services/[...slug].html"
+      },
+      {
+        "source": "/booking/**",
+        "destination": "/booking/[...slug].html"
+      },
+      {
+        "source": "/my-service-request-details/**",
+        "destination": "/my-service-request-details/[...slug].html"
+      },
+      {
+        "source": "/provider-details/**",
+        "destination": "/provider-details/[...slug].html"
+      },
+      {
+        "source": "/search/**",
+        "destination": "/search/[...slug].html"
+      },
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
