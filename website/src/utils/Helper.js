@@ -264,6 +264,11 @@ export const isLogin = () => {
   }
 };
 
+export const useIsLogin = () => {
+  const token = useSelector(getUserToken);
+  return !!token;
+};
+
 export const convertToSlug = (text) => {
   if (typeof text !== "string") {
     console.error("Input is not a string:", text);

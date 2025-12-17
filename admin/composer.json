@@ -68,5 +68,8 @@
       "url": "git@github.com:benedmunds/CodeIgniter-Ion-Auth.git"
     }
   },
-  "prefer-stable": true
+  "prefer-stable": true,
+  "config": {
+    "process-timeout": 0
+  }
 }

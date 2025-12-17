@@ -1,0 +1,31 @@
+INFO - 2025-12-17 00:09:37 --> [QUEUE_NOTIFICATION_SERVICE] Notification queued successfully for event: subscription_changed, job ID: 1
+INFO - 2025-12-17 00:09:37 --> [QUEUE_NOTIFICATION_SERVICE] Recipients: {"user_id":"6"}
+INFO - 2025-12-17 00:09:37 --> [QUEUE_NOTIFICATION_SERVICE] Context: {"provider_id":"6","subscription_id":"6","subscription_name":"Base","subscription_price":"0","subscription_duration":"2 days","purchase_date":"2025-12-17","expiry_date":"2025-12-19"}
+INFO - 2025-12-17 00:09:37 --> [QUEUE_NOTIFICATION_SERVICE] Options: {"channels":["fcm","email","sms"],"language":"en","platforms":["android","ios","provider_panel"]}
+INFO - 2025-12-17 00:09:37 --> [SUBSCRIPTION_CHANGED] Notification queued, job ID: 1
+INFO - 2025-12-17 00:10:23 --> [QUEUE_NOTIFICATION_SERVICE] Notification queued successfully for event: subscription_changed, job ID: 1
+INFO - 2025-12-17 00:10:23 --> [QUEUE_NOTIFICATION_SERVICE] Recipients: {"user_id":"5"}
+INFO - 2025-12-17 00:10:23 --> [QUEUE_NOTIFICATION_SERVICE] Context: {"provider_id":"5","subscription_id":"7","subscription_name":"PRENIUM","subscription_price":"0","subscription_duration":"3 days","purchase_date":"2025-12-17","expiry_date":"2025-12-20"}
+INFO - 2025-12-17 00:10:23 --> [QUEUE_NOTIFICATION_SERVICE] Options: {"channels":["fcm","email","sms"],"language":"en","platforms":["android","ios","provider_panel"]}
+INFO - 2025-12-17 00:10:23 --> [SUBSCRIPTION_CHANGED] Notification queued, job ID: 1
+DEBUG - 2025-12-17 07:59:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-17 07:59:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-17 07:59:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-17 07:59:11 --> Language filter: Set language to 'en' from request headers
+INFO - 2025-12-17 07:59:11 --> Language filter: Set language to 'en' from request headers
+INFO - 2025-12-17 07:59:12 --> Language filter: Set language to 'en' from request headers
+ERROR - 2025-12-17 07:59:13 --> Xendit API key is not configured
+ERROR - 2025-12-17 07:59:13 --> Xendit API key is not configured
+ERROR - 2025-12-17 07:59:13 --> Xendit API key is not configured
+DEBUG - 2025-12-17 07:59:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-17 07:59:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-17 07:59:44 --> Language filter: Set language to 'en' from request headers
+INFO - 2025-12-17 07:59:44 --> Language filter: Set language to 'en' from request headers
+DEBUG - 2025-12-17 07:59:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-17 07:59:44 --> Language filter: Set language to 'en' from request headers
+ERROR - 2025-12-17 07:59:45 --> Xendit API key is not configured
+ERROR - 2025-12-17 07:59:45 --> Xendit API key is not configured
+ERROR - 2025-12-17 07:59:46 --> Xendit API key is not configured
+DEBUG - 2025-12-17 07:59:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-17 07:59:46 --> Language filter: Set language to 'en' from request headers
+ERROR - 2025-12-17 07:59:48 --> Xendit API key is not configured

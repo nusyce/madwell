@@ -5,6 +5,8 @@
 /vendor
 /.pnp
 vendor
+/vendor-old
+vendor-old
 .pnp.js
 .yarn/install-state.gz
  
