@@ -14,7 +14,7 @@
         android:extractNativeLibs="true"
         android:fullBackupOnly="false"
         android:icon="@mipmap/ic_launcher"
-        android:label="eDemand"
+        android:label="Madwell"
         android:requestLegacyExternalStorage="true"
         android:usesCleartextTraffic="true">
 
@@ -69,8 +69,8 @@
                 <category android:name="android.intent.category.BROWSABLE" />
 
                 <data
-                    android:host="edemandweb.wrteam.me"
-                    android:scheme="edemand" />
+                    android:host="madwell.pro"
+                    android:scheme="madwell" />
 
 
             </intent-filter>

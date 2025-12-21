@@ -22,30 +22,30 @@ export function useLanguage() {
   const { data: languages = [], isLoading, error, refetch: refetchLanguages } =
     useQuery({
       queryKey: buildLanguageAwareKey(["languages"]),
-    queryFn: async () => {
-      const response = await getLanguageListApi();
-      if (!response?.data) {
-        throw new Error('Invalid response from language list API');
-      }
-      return response.data.map(lang => ({
-        id: lang.id,
-        langCode: lang.code,
-        language: lang.language,
-        image: lang.image,
-        isRtl: lang.is_rtl === "1"
-      }));
-    },
-    gcTime: 1000 * 60 * 60 * 24, // Keep in cache for 24 hours (formerly cacheTime)
-    refetchOnWindowFocus: false, // Don't refetch when window regains focus
-    refetchOnMount: false, // Don't refetch when component remounts if data exists
-    refetchOnReconnect: false, // Don't refetch when network reconnects
-  });
+      queryFn: async () => {
+        const response = await getLanguageListApi();
+        if (!response?.data) {
+          throw new Error('Invalid response from language list API');
+        }
+        return response.data.map(lang => ({
+          id: lang.id,
+          langCode: lang.code,
+          language: lang.language,
+          image: lang.image,
+          isRtl: lang.is_rtl === "1"
+        }));
+      },
+      gcTime: 1000 * 60 * 60 * 24, // Keep in cache for 24 hours (formerly cacheTime)
+      refetchOnWindowFocus: false, // Don't refetch when window regains focus
+      refetchOnMount: false, // Don't refetch when component remounts if data exists
+      refetchOnReconnect: false, // Don't refetch when network reconnects
+    });
 
   // Function to update URL with language parameter
   const updateUrlWithLanguage = (langCode) => {
     const currentQuery = { ...router.query };
     currentQuery.lang = langCode;
-    
+
     router.replace(
       {
         pathname: router.pathname,
@@ -93,6 +93,7 @@ export function useLanguage() {
 
   // Function to change language
   const changeLanguage = async (langCode) => {
+    console.log("langCode", langCode);
     try {
       const langObject = languages.find(
         lang => lang.langCode.toLowerCase() === langCode.toLowerCase()
@@ -104,18 +105,18 @@ export function useLanguage() {
 
       // Load translations first
       const translations = await loadTranslations(langObject);
-      
+
       // Update everything in a batch
       dispatch(setReduxLanguage(langObject));
       dispatch(setTranslations(translations));
       updateUrlWithLanguage(langObject.langCode);
-      
+
       // Update document direction
       document.documentElement.dir = langObject.isRtl ? "rtl" : "ltr";
 
       // Invalidate and refetch relevant queries
       await queryClient.invalidateQueries(buildLanguageAwareKey(['homePageData']));
-      
+
       return true;
     } catch (error) {
       console.error('Error changing language:', error);

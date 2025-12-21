@@ -12,7 +12,7 @@
         android:allowBackup="false"
         android:fullBackupOnly="false"
         android:icon="@mipmap/ic_launcher"
-        android:label="eDemand Provider"
+        android:label="Madwell Pro"
         android:extractNativeLibs="true">
 
         <activity

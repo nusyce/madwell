@@ -14,7 +14,7 @@ if (process.env.NEXT_PUBLIC_ENABLE_SEO === "true") {
   serverSidePropsFunction = async (context) => {
     try {
       const languageCode = context.query?.lang || "en";
-      
+
       // Fetch SEO data and languages in parallel for better performance
       const [seoData, availableLanguages] = await Promise.all([
         fetchSeoSettings("home", null, languageCode),
@@ -32,7 +32,7 @@ if (process.env.NEXT_PUBLIC_ENABLE_SEO === "true") {
       console.error("Error fetching SEO data:", error);
       // Fallback: fetch languages even on error
       const availableLanguages = await fetchLanguages().catch(() => [{ langCode: 'en', language: 'English' }]);
-      
+
       return {
         props: {
           title: process.env.NEXT_PUBLIC_META_TITLE || "eDemand",
@@ -46,7 +46,7 @@ if (process.env.NEXT_PUBLIC_ENABLE_SEO === "true") {
           twitterTitle: process.env.NEXT_PUBLIC_META_TITLE || "eDemand",
           twitterDescription: process.env.NEXT_PUBLIC_META_DESCRIPTION || "",
           twitterImage: "/favicon.ico",
-          languageCode: "en",
+          languageCode: "fr",
           availableLanguages, // Add languages for hreflang tags even on error
         },
       };
@@ -73,6 +73,7 @@ export default function Home(props) {
     languageCode,
     availableLanguages = [], // Languages for hreflang tags
   } = props;
+
 
   const baseUrl = process.env.NEXT_PUBLIC_WEB_URL || "";
   const pageUrl = `${baseUrl}/?lang=${languageCode}`;

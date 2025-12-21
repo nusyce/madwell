@@ -1,18 +1,18 @@
 import 'package:e_demand/app/generalImports.dart';
 
-const String appName = "eDemand";
+const String appName = "Madwell";
 
 //PLACE YOUR ADMIN PANEL DOMAIN HERE
-const String domain = 'https://edemand.wrteam.me'; //demo
+const String domain = 'https://madwell.madwell.pro'; //demo
 
 // deepLinkDomainURL should look like:- your_web_domain or your_panel_domain
-const String deepLinkDomain = 'https://edemandweb.wrteam.me'; //demo
+const String deepLinkDomain = 'https://madwell.madwell.pro'; //demo
 
 const String baseUrl = "$domain/api/v1/";
 
 const bool isDemoMode = true;
 
-const String defaultCountryCode = "IN";
+const String defaultCountryCode = "CM";
 
 //if you do not want user to select another country rather than default country,
 //then make below variable true
@@ -25,7 +25,7 @@ const String otpHintText = "123456"; /* MUST BE 6 CHARACTER REQUIRED */
 
 Map<String, dynamic> dateAndTimeSetting = {
   "dateFormat": "dd/MM/yyyy",
-  "use24HourFormat": false,
+  "use24HourFormat": true,
 };
 
 //slider on home screen

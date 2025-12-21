@@ -24,3 +24,5 @@ next-env.d.ts
 firebase-messaging-sw.js
 app/Config/Database.php
 .env
+
+/writable

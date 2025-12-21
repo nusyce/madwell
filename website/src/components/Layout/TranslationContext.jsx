@@ -16,7 +16,6 @@ export const useTranslation = () => {
 // Translation provider component
 export const TranslationProvider = ({ children }) => {
   const translations = useSelector((state) => state.translation.translations);
-  const currentLanguage = useSelector((state) => state.translation.currentLanguage);
   const [englishTranslations, setEnglishTranslations] = useState({});
   const [isEnglishLoaded, setIsEnglishLoaded] = useState(false);
 

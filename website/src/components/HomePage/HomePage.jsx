@@ -68,25 +68,25 @@ const HomePage = () => {
   // Helper function to check if a section has valid data (without rendering)
   const hasSectionData = (section) => {
     if (!section) return false;
-    
+
     switch (section?.section_type) {
       case "partners":
       case "top_rated_partner":
       case "near_by_provider":
         return section?.partners && Array.isArray(section.partners) && section.partners.length > 0;
-      
+
       case "sub_categories":
         return section?.sub_categories && Array.isArray(section.sub_categories) && section.sub_categories.length > 0;
-      
+
       case "previous_order":
         return section?.previous_order && Array.isArray(section.previous_order) && section.previous_order.length > 0;
-      
+
       case "ongoing_order":
         return section?.ongoing_order && Array.isArray(section.ongoing_order) && section.ongoing_order.length > 0;
-      
+
       case "banner":
         return section?.banner && Array.isArray(section.banner) && section.banner.length > 0 && section.banner[0]?.web_banner_image;
-      
+
       default:
         return false;
     }
@@ -130,29 +130,29 @@ const HomePage = () => {
             <HomeDivider />
           </div>
         );
-        
-        case "ongoing_order":
-          if (!section?.ongoing_order?.length) return null;
-          return (
-            <div key={`${section.section_type}-${index}`}>
+
+      case "ongoing_order":
+        if (!section?.ongoing_order?.length) return null;
+        return (
+          <div key={`${section.section_type}-${index}`}>
             <OngoingBookings data={section} />
             <HomeDivider />
           </div>
         );
-        
-        case "near_by_provider":
-          if (!section?.partners?.length) return null;
-          return (
-            <div key={`${section.section_type}-${index}`}>
+
+      case "near_by_provider":
+        if (!section?.partners?.length) return null;
+        return (
+          <div key={`${section.section_type}-${index}`}>
             <NearbyProviders data={section} />
             <HomeDivider />
           </div>
         );
-        
-        case "banner":
-          if (!section?.banner?.[0]?.web_banner_image) return null;
-          return (
-            <div key={`${section.section_type}-${index}`}>
+
+      case "banner":
+        if (!section?.banner?.[0]?.web_banner_image) return null;
+        return (
+          <div key={`${section.section_type}-${index}`}>
             <Banner banner={section} />
             <HomeDivider />
           </div>
@@ -165,10 +165,10 @@ const HomePage = () => {
 
   // Check if there's any data to display
   // Note: HeroSlider is always shown (even without slider data) because it contains location/search functionality
-  
+
   // Check if categories exist and have data
   const hasCategories = homePageData?.categories && Array.isArray(homePageData.categories) && homePageData.categories.length > 0;
-  
+
   // Check if sections exist and at least one section has valid data
   const hasSections = homePageData?.sections && Array.isArray(homePageData.sections) && homePageData.sections.length > 0;
   const hasValidSections = hasSections && homePageData.sections.some(hasSectionData);

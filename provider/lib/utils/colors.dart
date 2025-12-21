@@ -5,13 +5,14 @@ extension AppColors on ColorScheme {
   static const Color starRatingColor = Color(0xfff4be18);
   static const Color redColor = Colors.red;
   static Color whiteColors = Colors.white;
-  static const Color grey = Colors.grey;
+    static const Color  grey =  Colors.grey;
+
 
   static Color lightPrimaryColor = const Color(0xffF2F1F6); //background color
   //card color
   static Color lightSecondaryColor = const Color(0xffFFFFFF);
   //main color
-  static Color lightAccentColor = const Color(0xff2F88EB);
+  static Color lightAccentColor = const Color(0xff0006a6);
   //text color
   static Color lightSubHeadingColor1 = const Color(0xff212121);
 
@@ -21,7 +22,7 @@ extension AppColors on ColorScheme {
   //card color
   static Color darkSecondaryColor = const Color(0xff212121);
   //main color
-  static Color darkAccentColor = const Color(0xff0079FF);
+  static Color darkAccentColor = const Color(0xfff96714);
   //text color
   static Color darkSubHeadingColor1 = const Color(0xffFFFFFF);
 

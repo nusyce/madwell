@@ -73,20 +73,22 @@ export default function Document({ langCode = 'en' }) {
 
         {/* Google Ad-Sense */}
         <meta name="google-site-verification" content="xxxxxxxxxxxxxxxx" />
-          <script
-            async 
-            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-xxxxxxxxxxxxxxxx"
-            crossOrigin="anonymous"
-          ></script>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-xxxxxxxxxxxxxxxx"
+          crossOrigin="anonymous"
+        ></script>
 
         {/* Google Analytics */}
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-xxxxxxxxxxxxxxxx"></script>
-        <script>
-          {`window.dataLayer = window.dataLayer || [];
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-xxxxxxxxxxxxxxxx');`}
-        </script>
+            gtag('config', 'G-xxxxxxxxxxxxxxxx');`
+          }}
+        />
 
         {/* Microsoft Clarity */}
         <script

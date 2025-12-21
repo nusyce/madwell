@@ -68,12 +68,12 @@ const LandingPage = () => {
     // Check if there's a language parameter in the URL
     const urlLangParam = router.query.lang;
 
+
     if (urlLangParam && urlLangParam !== currentLanguage?.langCode) {
       // Find the language object from supported languages
       const supportedLanguages = [
         { langCode: 'en', language: 'English', isRtl: false },
-        { langCode: 'hi', language: 'Hindi', isRtl: false },
-        { langCode: 'ur', language: 'Urdu', isRtl: true }
+        { langCode: 'fr', language: 'French', isRtl: false }
       ];
 
       const urlLanguage = supportedLanguages.find(lang =>
@@ -83,6 +83,7 @@ const LandingPage = () => {
       if (urlLanguage) {
         // Update Redux with URL language
         dispatch(setReduxLanguage(urlLanguage));
+        loadTranslations(urlLanguage);
       } else {
         console.warn(`⚠️ Unsupported language in URL: ${urlLangParam}`);
       }
@@ -268,7 +269,7 @@ const LandingPage = () => {
         langToUse = defaultLang;
         dispatch(setReduxLanguage(defaultLang));
         dispatch(setReduxLanguage(defaultLang));
-        
+
         // Update URL with the new default language parameter
         const currentQuery = { ...router.query };
         currentQuery.lang = defaultLang.langCode;
@@ -280,7 +281,8 @@ const LandingPage = () => {
           undefined,
           { shallow: true }
         );
-        
+
+        console.log('Loading translations for default language:', defaultLang);
         await loadTranslations(defaultLang);
         return;
       }
@@ -289,8 +291,7 @@ const LandingPage = () => {
         // If URL has language parameter, use that instead
         const supportedLanguages = [
           { langCode: 'en', language: 'English', isRtl: false },
-          { langCode: 'hi', language: 'Hindi', isRtl: false },
-          { langCode: 'ur', language: 'Urdu', isRtl: true }
+          { langCode: 'fr', language: 'French', isRtl: false }
         ];
 
         const urlLanguage = supportedLanguages.find(lang =>
